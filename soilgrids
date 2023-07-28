@@ -1,0 +1,167 @@
+install.packages("geodata")
+library(geodata)
+library(raster)
+library(sp)
+library(rgdal)
+
+
+##### 拼接 ####
+library(raster)
+tif_file_name <- list.files(path = r"(/Users/lemon/Downloads/clay_0_5)", pattern = ".tif$", full.names = TRUE, ignore.case = TRUE)
+tif_file_list <- list()
+for (i in 1:length(tif_file_name)){
+    tif_file_list[i] <- raster(tif_file_name[i])
+  }
+
+tif_file_list$fun <- max
+tif_file_list$na.rm <- TRUE
+tif_mosaic <- do.call(mosaic, tif_file_list)
+plot(tif_mosaic)
+
+# tif_merge <- do.call(merge, tif_file_list)
+
+rf <- writeRaster(tif_mosaic, filename = r"(/Users/lemon/Downloads/clay_0_5/clay_0_5cm.tif)", overwrite = TRUE)
+
+##### 批量合并并且后台 #####
+job::job(
+  {tif_file_name1 <- list.files(path = r"(/Users/lemon/Downloads/clay_0_5)", pattern = ".tif$", full.names = TRUE, ignore.case = TRUE)
+  tif_file_list1 <- list()
+  for (i in 1:length(tif_file_name1)){
+    tif_file_list1[i] <- raster(tif_file_name1[i])
+  }
+  tif_file_list1$fun <- max
+  tif_file_list1$na.rm <- TRUE
+  tif_mosaic1 <- do.call(mosaic, tif_file_list1)
+  rf1 <- writeRaster(tif_mosaic1, filename = r"(/Users/lemon/Downloads/clay_0_5/clay_5_15cm.tif)", overwrite = TRUE)},
+  title = 'silt 5-15 cm')
+
+
+job::job(
+  {tif_file_name <- list.files(path = r"(/Users/lemon/Downloads/clay_0_5/1)", pattern = ".tif$", full.names = TRUE, ignore.case = TRUE)
+  tif_file_list <- list()
+  for (i in 1:length(tif_file_name)){
+    tif_file_list[i] <- raster(tif_file_name[i])
+  }
+  tif_file_list$fun <- max
+  tif_file_list$na.rm <- TRUE
+  tif_mosaic <- do.call(mosaic, tif_file_list)
+  rf <- writeRaster(tif_mosaic, filename = r"(/Users/lemon/Downloads/clay_0_5/1/silt_5_15cm.tif)", overwrite = TRUE)},
+  title = 'silt 5-15 cm')
+
+##### 提取 #####
+library(rgdal)
+library(raster)
+library(sp)
+#导入经纬度数据
+location_site <-read.xlsx("/Users/lemon/Desktop/目前的需要做的事情/Data_analysis/ranran/location_site.xlsx", 1)
+head(location_site)
+
+#导入tif数据
+# 指定文件夹路径和关键词
+folder_path <- "/Volumes/lemon/soilgrids_merged/"
+TN_keyword <- "TN"
+SOC_keyword <- "SOC"
+pH_keyword <- "pH"
+clay_keyword <- "clay"
+sand_keyword <- "sand"
+silt_keyword <- "silt"
+
+# 获取符合关键词的文件列表
+file_list_SOC <- list.files(path = folder_path, pattern = paste0(SOC_keyword, ".*\\.tif$"), full.names = TRUE)
+file_list_TN <- list.files(path = folder_path, pattern = paste0(TN_keyword, ".*\\.tif$"), full.names = TRUE)
+file_list_pH <- list.files(path = folder_path, pattern = paste0(pH_keyword, ".*\\.tif$"), full.names = TRUE)
+file_list_clay <- list.files(path = folder_path, pattern = paste0(clay_keyword, ".*\\.tif$"), full.names = TRUE)
+file_list_sand <- list.files(path = folder_path, pattern = paste0(sand_keyword, ".*\\.tif$"), full.names = TRUE)
+file_list_silt <- list.files(path = folder_path, pattern = paste0(silt_keyword, ".*\\.tif$"), full.names = TRUE)
+
+# 循环导入文件并按照文件名称保存在R中
+for (file in file_list_SOC) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+for (file in file_list_TN) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+for (file in file_list_pH) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+for (file in file_list_clay) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+
+for (file in file_list_sand) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+
+for (file in file_list_silt) {
+  # 提取文件名作为变量名
+  var_name <- gsub(".tif", "", basename(file))
+  assign(var_name, raster(file))
+}
+
+coords <- data.frame(lon = location_site[,2], lat = location_site[,3])
+coordinates(coords) <- c("lon","lat")
+
+SOC_0_5 <- raster::extract(x = SOC_0_5cm, y = coords)
+SOC_5_15 <- raster::extract(x = SOC_5_15cm, y = coords)
+SOC_15_30 <- raster::extract(x = SOC_15_30cm, y = coords)
+SOC_30_60 <- raster::extract(x = SOC_30_60cm, y = coords)
+
+TN_0_5 <- raster::extract(x = TN_0_5cm, y = coords)
+TN_5_15 <- raster::extract(x = TN_5_15cm, y = coords)
+TN_15_30 <- raster::extract(x = TN_15_30cm, y = coords)
+TN_30_60 <- raster::extract(x = TN_30_60cm, y = coords)
+
+pH_0_5 <- raster::extract(x = pH_0_5cm, y = coords)
+pH_5_15 <- raster::extract(x = pH_5_15cm, y = coords)
+pH_15_30 <- raster::extract(x = pH_15_30cm, y = coords)
+pH_30_60 <- raster::extract(x = pH_30_60cm, y = coords)
+
+clay_0_5 <- raster::extract(x = clay_0_5cm, y = coords)
+clay_5_15 <- raster::extract(x = clay_5_15cm, y = coords)
+clay_15_30 <- raster::extract(x = clay_15_30cm, y = coords)
+clay_30_60 <- raster::extract(x = clay_30_60cm, y = coords)
+
+sand_0_5 <- raster::extract(x = sand_0_5cm, y = coords)
+sand_5_15 <- raster::extract(x = sand_5_15cm, y = coords)
+sand_15_30 <- raster::extract(x = sand_15_30cm, y = coords)
+sand_30_60 <- raster::extract(x = sand_30_60cm, y = coords)
+
+silt_0_5 <- raster::extract(x = silt_0_5cm, y = coords)
+silt_5_15 <- raster::extract(x = silt_5_15cm, y = coords)
+silt_15_30 <- raster::extract(x = silt_15_30cm, y = coords)
+silt_30_60 <- raster::extract(x = silt_30_60cm, y = coords)
+
+
+data_all <- data.frame(location_site, SOC_0_5, SOC_5_15, SOC_15_30, SOC_30_60, TN_0_5, TN_5_15, TN_15_30, TN_30_60,
+                         pH_0_5, pH_5_15, pH_15_30, pH_30_60, clay_0_5, clay_5_15, clay_15_30, clay_30_60,
+                         sand_0_5, sand_5_15, sand_15_30, sand_30_60, silt_0_5, silt_5_15, silt_15_30, silt_30_60)
+head(data_all)
+
+library(dplyr)
+
+data_all_updated <- data_all %>%
+  mutate_at(vars(contains("SOC")), list(~ ./10)) %>%
+  mutate_at(vars(contains("TN")), list(~ ./100)) %>%
+  mutate_at(vars(contains("pH")), list(~ ./10)) %>%
+  mutate_at(vars(contains("clay")), list(~ ./10)) %>%
+  mutate_at(vars(contains("sand")), list(~ ./10)) %>%
+  mutate_at(vars(contains("silt")), list(~ ./10)) %>%
+  mutate_at(vars(contains("SOC")), list(~ replace(., . == 0, NA))) %>%
+  mutate_at(vars(contains("TN")), list(~ replace(., . == 0, NA))) %>%
+  mutate_at(vars(contains("pH")), list(~ replace(., . == 0, NA))) %>%
+  mutate_at(vars(contains("clay")), list(~ replace(., . == 0, NA))) %>%
+  mutate_at(vars(contains("sand")), list(~ replace(., . == 0, NA))) %>%
+  mutate_at(vars(contains("silt")), list(~ replace(., . == 0, NA)))
+head(data_all_updated)
+
+write.csv(data_all_updated, file = "meta_location_soilgrids.csv") # 写出文件
