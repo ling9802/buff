@@ -18,7 +18,7 @@ tif_file_list$na.rm <- TRUE
 tif_mosaic <- do.call(mosaic, tif_file_list)
 plot(tif_mosaic)
 
-# tif_merge <- do.call(merge, tif_file_list)
+# tif_merge <- do.call(merge, tif_file_list) # 方法选择merge和mosaic对于结果没有区别，一般来说mosaic优先
 
 rf <- writeRaster(tif_mosaic, filename = r"(/Users/lemon/Downloads/clay_0_5/clay_0_5cm.tif)", overwrite = TRUE)
 
