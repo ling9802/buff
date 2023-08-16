@@ -164,4 +164,21 @@ data_all_updated <- data_all %>%
   mutate_at(vars(contains("silt")), list(~ replace(., . == 0, NA)))
 head(data_all_updated)
 
-write.csv(data_all_updated, file = "meta_location_soilgrids.csv") # 写出文件
+##### 将不同深度的数据对应到我们提取的数据集中
+data <- read.csv('C:\\Users\\ling\\Documents\\导出的文件\\meta_soilgrids_1km.csv') # 读取文件
+head(data)
+variables <- c("silt", "SOC", "TN", "pH", "clay", "sand") # 设置变量
+for (var in variables) {
+  data <- data %>%
+    mutate({{var}} := NA)
+} # 在数据集data中添加这些变量
+
+# 循环遍历每个变量，进行相同的操作
+for (var in variables) {
+  data[[var]] <- ifelse(data$depth1 == "0-5", data[[paste0(var, "_0_5")]],
+                        ifelse(data$depth1 == "5-15", data[[paste0(var, "_5_15")]],
+                               ifelse(data$depth1 == "15-30", data[[paste0(var, "_15_30")]],
+                                      ifelse(data$depth1 == "30-60", data[[paste0(var, "_30_60")]],
+                                             NA))))
+}
+write.csv(data, file = "dwefopp.csv") # 写出文件
