@@ -182,3 +182,80 @@ for (var in variables) {
                                              NA))))
 }
 write.csv(data, file = "dwefopp.csv") # 写出文件
+
+
+
+###### 提取温度和降雨数据 #####
+library(raster)
+## Loading required package: sp
+library(openxlsx)
+
+location_site <- read.xlsx('/Users/lemon/Downloads/Climate data to LJ.xlsx', 1)
+head(location_site)
+
+coords <- data.frame(lon = location_site[,3], lat = location_site[,2])
+coordinates(coords) <- c("lon","lat")
+
+# 设置文件夹路径
+folder_tavg_path <- "/Volumes/lemon/wc2.1_30s_tavg"
+
+# 获取文件夹中所有.tif文件的文件名
+tif_files <- list.files(path = folder_tavg_path, pattern = "\\.tif$", full.names = TRUE)
+
+# 循环读取并赋值给R环境中的对象
+for (file in tif_files) {
+  # 使用assign()函数将数据赋值给R环境中的对象，对象名使用文件名
+  assign(basename(file), raster::raster(file))
+}
+
+avg_1 <- raster::extract(x = wc2.1_30s_tavg_01.tif, y = coords)
+avg_2 <- raster::extract(x = wc2.1_30s_tavg_02.tif, y = coords)
+avg_3 <- raster::extract(x = wc2.1_30s_tavg_03.tif, y = coords)
+avg_4 <- raster::extract(x = wc2.1_30s_tavg_04.tif, y = coords)
+avg_5 <- raster::extract(x = wc2.1_30s_tavg_05.tif, y = coords)
+avg_6 <- raster::extract(x = wc2.1_30s_tavg_06.tif, y = coords)
+avg_7 <- raster::extract(x = wc2.1_30s_tavg_07.tif, y = coords)
+avg_8 <- raster::extract(x = wc2.1_30s_tavg_08.tif, y = coords)
+avg_9 <- raster::extract(x = wc2.1_30s_tavg_09.tif, y = coords)
+avg_10 <- raster::extract(x = wc2.1_30s_tavg_10.tif, y = coords)
+avg_11 <- raster::extract(x = wc2.1_30s_tavg_11.tif, y = coords)
+avg_12 <- raster::extract(x = wc2.1_30s_tavg_12.tif, y = coords)
+
+data_all <- data.frame(location_site, avg_1, avg_2, avg_3, avg_4, avg_5, avg_6, avg_7, avg_8, avg_9, avg_10, avg_11, avg_12)
+head(data_all)
+
+data_all$avg_annual <- rowMeans(data_all[5:16]) # 计算年均温
+
+# 设置文件夹路径
+folder_prec_path <- "/Volumes/lemon/wc2.1_30s_prec"
+
+# 获取文件夹中所有.tif文件的文件名
+tif_files <- list.files(path = folder_prec_path, pattern = "\\.tif$", full.names = TRUE)
+
+# 循环读取并赋值给R环境中的对象
+for (file in tif_files) {
+  # 使用assign()函数将数据赋值给R环境中的对象，对象名使用文件名
+  assign(basename(file), raster::raster(file))
+}
+
+prec_1 <- raster::extract(x = wc2.1_30s_prec_01.tif, y = coords)
+prec_2 <- raster::extract(x = wc2.1_30s_prec_02.tif, y = coords)
+prec_3 <- raster::extract(x = wc2.1_30s_prec_03.tif, y = coords)
+prec_4 <- raster::extract(x = wc2.1_30s_prec_04.tif, y = coords)
+prec_5 <- raster::extract(x = wc2.1_30s_prec_05.tif, y = coords)
+prec_6 <- raster::extract(x = wc2.1_30s_prec_06.tif, y = coords)
+prec_7 <- raster::extract(x = wc2.1_30s_prec_07.tif, y = coords)
+prec_8 <- raster::extract(x = wc2.1_30s_prec_08.tif, y = coords)
+prec_9 <- raster::extract(x = wc2.1_30s_prec_09.tif, y = coords)
+prec_10 <- raster::extract(x = wc2.1_30s_prec_10.tif, y = coords)
+prec_11 <- raster::extract(x = wc2.1_30s_prec_11.tif, y = coords)
+prec_12 <- raster::extract(x = wc2.1_30s_prec_12.tif, y = coords)
+
+data_all_1 <- data.frame(location_site, prec_1, prec_2, prec_3, prec_4, prec_5, prec_6, prec_7, prec_8, prec_9, prec_10, prec_11, prec_12)
+head(data_all_1)
+
+data_all_1$prec_annual <- rowMeans(data_all_1[5:16]) # 计算年均温
+
+cbind(data_all, data_all_1$prec_annual) -> all_data
+
+write.csv(all_data, 'all_data.csv')
