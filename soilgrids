@@ -151,7 +151,7 @@ library(dplyr)
 
 data_all_updated <- data_all %>%
   mutate_at(vars(contains("SOC")), list(~ ./10)) %>%
-  mutate_at(vars(contains("TN")), list(~ ./100)) %>%
+  mutate_at(vars(contains("TN")), list(~ ./1000)) %>%
   mutate_at(vars(contains("pH")), list(~ ./10)) %>%
   mutate_at(vars(contains("clay")), list(~ ./10)) %>%
   mutate_at(vars(contains("sand")), list(~ ./10)) %>%
