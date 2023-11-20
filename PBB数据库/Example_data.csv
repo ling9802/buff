@@ -1,0 +1,1001 @@
+OTUID,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,Domain,Phylum,Class,Order,Family,Genus,Species
+OUT_1,10,332,49,3,10,635,374,18,27,14,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Virgibacillus sp. XJSL9-10
+OUT_2,116,122,40,103,122,88,108,60,126,99,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. Nu-1
+OUT_3,12,68,87,11,16,36,33,117,253,235,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_4,29,166,207,13,41,161,106,35,24,35,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_5,66,105,69,54,88,99,78,35,80,110,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Kaistobacter sp.
+OUT_6,102,39,60,59,131,41,46,118,79,70,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_7,49,61,38,109,73,44,46,58,70,80,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,Geobacillus sp. Fy7-2
+OUT_8,14,107,179,2,14,98,79,29,18,9,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas alliivorans
+OUT_9,63,53,38,59,49,47,58,70,51,40,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_10,80,22,33,40,91,23,29,121,37,52,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured proteobacterium
+OUT_11,77,62,11,62,66,61,56,32,36,41,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus timonensis
+OUT_12,33,61,128,11,27,50,40,3,18,12,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas,uncultured Pseudoxanthomonas sp.
+OUT_13,1,55,230,0,1,24,46,8,6,0,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,Halomonas pacifica
+OUT_14,72,27,4,76,68,17,13,50,20,23,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured proteobacterium
+OUT_15,51,45,14,29,39,37,33,22,46,38,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. 2BSG-MG-11
+OUT_16,35,56,64,2,24,51,47,2,32,40,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter sp. RKM4
+OUT_17,6,109,31,3,16,62,61,13,1,6,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Enterobacter,Enterobacter sp. NISOC_03
+OUT_18,43,33,12,38,29,47,33,20,22,21,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. FF4
+OUT_19,6,87,0,4,5,109,69,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_20,32,25,73,9,21,27,10,16,33,18,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_21,5,49,46,4,14,47,72,8,3,8,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,beta proteobacterium PI_GH1.1.B10
+OUT_22,30,25,17,35,21,17,10,25,32,28,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Lysinibacillus massiliensis
+OUT_23,24,7,9,63,11,17,12,55,21,19,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_24,31,19,37,21,25,32,17,29,12,14,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga sp. LWH185
+OUT_25,31,23,11,31,23,22,23,12,32,16,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_26,14,31,23,9,8,35,38,29,19,14,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. MJM6929
+OUT_27,7,12,27,5,2,31,52,57,9,3,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Promicromonospora,Promicromonospora sp. CPCC100077
+OUT_28,5,14,26,4,6,6,18,16,58,49,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Ornithinibacillus sp. GIESS003
+OUT_29,0,5,0,4,0,35,156,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. JBL-5
+OUT_30,30,18,6,32,16,17,13,13,32,20,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Bacillus sp.
+OUT_31,17,21,11,31,26,15,9,16,26,20,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_32,18,19,17,20,21,38,11,9,19,19,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosospira,unidentified
+OUT_33,23,20,10,19,27,11,16,11,28,21,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_34,0,6,0,135,9,2,3,28,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,uncultured bacterium
+OUT_35,5,15,16,24,4,14,15,31,33,19,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas fluorescens
+OUT_36,0,1,0,0,0,38,135,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. Aac-39
+OUT_37,3,19,25,3,7,4,12,17,41,44,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Ornithinibacillus sp. J8B(2010)
+OUT_38,22,22,5,26,25,14,16,9,16,19,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Bacillus sp. IARI-MB-13
+OUT_39,13,13,12,20,35,22,11,9,17,20,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_40,7,22,37,1,17,18,18,3,25,21,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Kaistobacter sp.
+OUT_41,16,9,13,41,24,12,11,11,17,15,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_42,4,7,65,2,3,21,5,35,10,16,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,myxobacterium NU-2
+OUT_43,10,27,24,9,13,14,21,11,21,13,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium sp.
+OUT_44,3,23,36,0,3,50,35,5,0,4,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,Sphingobacterium thalpophilum
+OUT_45,3,20,32,4,16,11,11,37,18,5,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planococcus,unidentified marine bacterioplankton
+OUT_46,15,11,77,3,17,7,6,4,10,7,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Noviherbaspirillum,uncultured bacterium
+OUT_47,9,21,23,2,12,18,12,34,15,10,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_48,15,12,13,16,23,16,15,8,21,15,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonadaceae bacterium
+OUT_49,14,17,5,24,15,25,15,9,13,14,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_50,2,17,11,2,2,19,12,76,6,4,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. PN403
+OUT_51,15,12,32,4,17,15,15,8,19,14,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_52,19,8,8,28,7,13,17,12,13,19,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus thermolactis
+OUT_53,0,15,82,0,0,7,13,24,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,Halomonas sp. L54
+OUT_54,8,23,6,8,6,19,20,35,10,6,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. GS09
+OUT_55,13,14,18,9,10,16,19,12,10,19,Bacteria,Proteobacteria,Betaproteobacteria,Methylophilales,Methylophilaceae,Methylobacillus,uncultured bacterium
+OUT_56,15,21,6,12,15,15,14,6,18,17,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_57,1,42,23,0,7,29,29,2,2,4,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. ljh-30
+OUT_58,18,25,17,5,13,16,15,9,10,10,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. WMMB 539
+OUT_59,7,7,5,48,11,7,10,25,10,7,Bacteria,Firmicutes,Bacilli,Bacillales,Thermoactinomycetaceae,Thermoactinomyces,Thermoactinomyces sp. A60
+OUT_60,17,12,13,1,21,16,10,3,19,22,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. KNUC361
+OUT_61,4,23,34,2,5,26,21,7,5,6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured alpha proteobacterium
+OUT_62,19,22,8,8,14,15,13,12,13,7,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_63,11,12,4,22,7,20,15,15,15,8,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,uncultured bacterium
+OUT_64,11,26,6,2,13,20,21,3,17,10,Bacteria,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,uncultured Tumebacillus sp.
+OUT_65,13,18,7,14,21,12,16,6,12,10,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_66,9,21,8,16,13,12,16,9,12,11,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Lysinimonas,uncultured actinobacterium
+OUT_67,12,7,4,31,15,11,15,11,8,12,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_68,16,13,0,1,32,6,11,3,31,9,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_69,18,5,6,15,24,4,4,14,14,17,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_70,6,8,8,14,14,9,8,11,23,19,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,gamma proteobacterium CH14i
+OUT_71,21,7,5,11,8,12,20,15,12,6,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. KSI 1420
+OUT_72,13,18,3,34,11,4,9,10,5,8,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,uncultured bacterium
+OUT_73,16,7,3,26,19,10,7,7,15,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus sp. NBM49,Geobacillus sp. NBM49
+OUT_74,11,16,13,5,7,21,7,7,13,14,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosospira,Nitrosovibrio tenuis
+OUT_75,1,6,74,0,5,1,3,18,0,5,Bacteria,Actinobacteria,Actinobacteria,Glycomycetales,Glycomycetaceae,Glycomyces,uncultured bacterium
+OUT_76,21,5,9,27,11,3,9,10,9,8,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura,Actinomadura sp. 28a-77-2
+OUT_77,10,10,1,22,14,11,9,10,8,15,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,uncultured bacterium
+OUT_78,10,13,16,7,14,8,17,7,10,5,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,uncultured bacterium
+OUT_79,13,12,2,10,15,6,13,11,15,9,Bacteria,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,uncultured bacterium
+OUT_80,2,7,22,3,2,10,9,7,38,5,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_81,19,6,6,12,20,10,6,8,13,5,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,uncultured bacterium
+OUT_82,25,30,1,2,13,11,16,3,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,uncultured Alicyclobacillaceae bacterium
+OUT_83,15,9,5,13,12,10,9,8,9,12,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. JC248
+OUT_84,11,15,5,19,14,7,11,11,3,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus psychrosaccharolyticus
+OUT_85,10,12,8,4,11,4,11,3,17,21,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,uncultured bacterium
+OUT_86,0,0,89,0,0,2,3,1,3,3,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Salinicola,uncultured Halomonas sp.
+OUT_87,7,15,8,3,14,6,13,8,14,10,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Shinella,uncultured bacterium
+OUT_88,10,10,14,5,7,14,16,6,9,6,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. XL2006
+OUT_89,8,13,9,6,9,19,6,1,10,16,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_90,11,9,17,3,19,4,9,8,6,10,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_91,6,17,16,4,7,11,11,6,9,9,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_92,13,5,5,18,11,4,9,8,11,11,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,bacterium SIT5
+OUT_93,0,0,0,85,0,0,0,10,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteibacter,uncultured bacterium
+OUT_94,17,6,15,7,10,15,8,8,6,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured Bacteroidetes bacterium
+OUT_95,12,13,6,14,11,11,8,5,4,9,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Alcaligenes,uncultured Planococcus sp.
+OUT_96,5,11,13,3,3,10,27,12,8,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Cellulosimicrobium,Cellulosimicrobium sp. Ljn-9
+OUT_97,0,0,0,1,0,0,4,87,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. R12-2
+OUT_98,1,20,4,0,0,40,19,4,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Bacillus sp. MSP13
+OUT_99,5,7,4,22,15,12,11,12,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,Bradyrhizobium sp. L1E07A
+OUT_100,1,1,1,13,3,15,55,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,Pseudonocardia yunnanensis
+OUT_101,13,12,4,3,3,26,16,9,4,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. HXG-D2
+OUT_102,4,18,9,4,6,8,18,4,11,8,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,uncultured bacterium
+OUT_103,5,3,16,4,10,2,0,13,16,19,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_104,1,5,12,2,1,6,7,12,27,15,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_105,18,3,15,1,12,2,8,10,12,7,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Promicromonospora,uncultured bacterium
+OUT_106,1,11,24,0,0,23,23,5,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio sp. 1806
+OUT_107,3,4,6,0,6,23,42,0,2,2,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,uncultured Brevibacillus sp.
+OUT_108,7,8,5,12,23,6,11,9,4,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Hyphomicrobium sp. LMAP-1
+OUT_109,8,13,8,4,8,8,14,7,9,7,Bacteria,Actinobacteria,Actinobacteria,Frankiales,Geodermatophilaceae,Blastococcus,uncultured Blastococcus sp.
+OUT_110,2,13,18,4,4,19,13,4,6,2,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. IMER-A2-21
+OUT_111,3,16,8,6,12,12,4,4,9,9,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus thuringiensis
+OUT_112,15,13,3,1,9,14,15,2,3,8,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Shinella,Shinella sp. CTN-13
+OUT_113,9,19,7,2,9,9,12,6,5,3,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured soil bacterium
+OUT_114,7,10,9,5,9,5,9,13,8,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_115,7,13,18,2,8,17,4,3,4,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Herbaspirillum,uncultured Herbaspirillum sp.
+OUT_116,9,5,2,1,12,4,12,13,9,10,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_117,6,9,6,4,6,5,7,6,22,5,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_118,9,7,3,7,6,8,14,4,7,11,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Kribbella,uncultured bacterium
+OUT_119,8,13,16,2,5,3,4,6,5,13,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_120,9,1,3,10,12,2,1,21,4,11,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_121,8,14,13,1,4,12,14,2,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Kaistobacter sp. P-55
+OUT_122,5,11,2,13,14,8,10,2,4,4,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus koreensis
+OUT_123,10,6,3,13,6,8,6,9,5,4,Bacteria,Proteobacteria,Betaproteobacteria,Rhodocyclales,Rhodocyclaceae,Azospira,uncultured bacterium
+OUT_124,8,2,9,5,4,7,7,6,12,10,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured organism
+OUT_125,2,9,13,2,5,10,4,4,11,10,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_126,5,14,3,5,7,12,8,5,3,7,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,Acidobacteria bacterium WX72
+OUT_127,5,7,6,9,4,4,4,8,14,8,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas,Pseudoxanthomonas koreensis
+OUT_128,15,6,1,7,10,5,9,8,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,Bradyrhizobium elkanii
+OUT_129,3,14,8,2,4,15,17,3,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Enterobacter,uncultured bacterium
+OUT_130,8,9,4,3,9,11,9,3,7,5,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured Gemmatimonadetes bacterium
+OUT_131,12,0,1,7,15,2,0,9,3,19,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_132,5,5,2,9,7,7,9,13,5,4,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,uncultured bacterium
+OUT_133,3,10,1,3,10,7,15,7,4,5,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,unidentified
+OUT_134,3,2,9,8,4,7,7,6,9,10,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_135,3,2,5,23,6,7,4,10,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_136,8,2,5,1,3,7,5,9,17,6,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,Staphylococcus sp. LS255
+OUT_137,4,3,4,18,4,6,3,11,9,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces antibioticus
+OUT_138,9,7,5,2,8,9,8,3,10,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. XWD3-5
+OUT_139,4,9,7,3,8,5,2,11,9,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_140,0,1,2,18,7,4,5,24,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_141,6,4,4,9,11,7,13,3,1,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. CT 3-07
+OUT_142,5,12,0,17,5,5,2,7,5,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_143,6,8,3,5,11,6,5,4,9,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_144,1,1,0,37,4,1,3,11,2,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_145,2,1,8,0,1,1,1,9,27,11,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura,uncultured bacterium
+OUT_146,6,7,5,1,3,12,9,6,6,5,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_147,4,4,6,3,10,11,10,2,5,5,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas stutzeri SDM-LAC
+OUT_148,8,7,2,12,2,6,3,11,3,5,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Kribbella,Kribbella sp. N07W-1801
+OUT_149,9,4,5,4,6,6,5,5,7,7,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured Acidobacteria bacterium
+OUT_150,5,6,5,17,6,2,6,5,2,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured bacterium
+OUT_151,6,4,8,11,7,4,3,5,5,5,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,uncultured bacterium
+OUT_152,11,8,4,0,10,8,8,1,2,6,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,Halomonas sp. C3-10
+OUT_153,0,4,42,0,1,2,4,3,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,uncultured bacterium
+OUT_154,9,0,1,15,5,8,7,5,4,3,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,uncultured bacterium
+OUT_155,1,1,22,3,1,0,3,1,14,11,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Microbulbiferaceae,Microbulbifer,Microbulbifer variabilis
+OUT_156,0,3,8,15,2,9,5,7,6,1,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Dyadobacter,uncultured bacterium
+OUT_157,9,10,4,2,5,7,6,0,6,6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured bacterium
+OUT_158,1,11,12,1,4,7,4,3,7,5,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured Gemmatimonas sp.
+OUT_159,4,2,2,6,10,2,2,2,9,16,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_160,5,5,5,0,6,16,9,2,5,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. PFS-5
+OUT_161,6,10,7,1,8,4,6,3,6,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_162,2,7,3,6,3,7,5,5,14,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. BL12
+OUT_163,6,5,7,5,4,8,7,1,6,5,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_164,1,3,5,18,0,1,2,10,5,8,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Nocardiopsaceae,Thermobifida,uncultured compost bacterium
+OUT_165,0,7,19,13,4,3,0,5,2,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,uncultured bacterium
+OUT_166,8,2,0,24,2,3,8,4,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Nonomuraea,uncultured bacterium
+OUT_167,2,12,11,4,5,3,5,4,0,6,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,agricultural soil bacterium SC-I-16
+OUT_168,2,6,5,6,3,5,9,5,6,5,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,Arenimonas composti TR7-09 = DSM 18010
+OUT_169,5,10,2,9,3,1,2,3,9,8,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_170,6,6,4,3,3,5,15,5,4,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Cellulosimicrobium,Cellulosimicrobium cellulans
+OUT_171,0,3,39,0,0,5,3,2,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,Sphingobacterium shayense
+OUT_172,4,1,3,17,7,4,1,7,4,3,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas,Xanthomonas arboricola
+OUT_173,7,2,7,1,4,3,11,6,6,4,Bacteria,Actinobacteria,Actinobacteria,Frankiales,Geodermatophilaceae,Blastococcus,uncultured bacterium
+OUT_174,6,8,4,4,5,4,6,5,6,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus graminis
+OUT_175,6,5,2,5,11,2,7,1,5,6,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. BR5-22
+OUT_176,4,10,1,4,2,6,11,0,5,7,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,uncultured bacterium
+OUT_177,5,6,1,4,1,7,11,7,6,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces niveoruber
+OUT_178,2,9,8,5,2,5,9,0,7,2,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Kocuria,Kocuria sp. BRI 36
+OUT_179,2,5,8,2,3,1,10,0,12,6,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. TUT1004
+OUT_180,7,5,3,1,16,6,1,1,5,4,Bacteria,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,Rheinheimera,uncultured bacterium
+OUT_181,4,5,1,7,3,4,5,4,9,6,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. 3479BRRJ
+OUT_182,4,9,6,5,3,8,5,1,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas changbaiensis
+OUT_183,7,6,3,3,5,3,4,2,6,8,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_184,5,9,6,2,3,6,8,1,3,4,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,Flavisolibacter sp. LY43
+OUT_185,3,1,3,1,1,8,14,7,5,4,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured bacterium
+OUT_186,4,4,1,14,5,7,7,2,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_187,5,10,1,5,8,4,7,2,2,2,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,uncultured bacterium
+OUT_188,1,1,1,34,4,0,0,4,1,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,uncultured bacterium
+OUT_189,11,3,8,1,1,5,5,1,4,7,Bacteria,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,uncultured bacterium
+OUT_190,10,3,2,8,6,2,0,3,4,7,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured bacterium
+OUT_191,3,8,2,3,0,15,6,3,2,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. m2-39
+OUT_192,6,0,0,16,8,1,0,11,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_193,2,7,5,1,1,5,6,1,10,6,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonadaceae bacterium
+OUT_194,3,2,0,5,8,5,11,7,0,3,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured bacterium
+OUT_195,0,5,4,1,3,8,8,3,6,6,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_196,0,2,4,5,2,2,2,6,14,7,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,Planococcus sp. B13(2012)
+OUT_197,4,5,2,5,2,3,2,5,9,6,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,uncultured beta proteobacterium
+OUT_198,3,4,2,11,2,3,4,7,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured Phenylobacterium sp.
+OUT_199,4,8,2,1,10,7,2,1,3,5,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_200,6,4,2,2,2,4,7,6,4,6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Shinella,uncultured alpha proteobacterium
+OUT_201,6,5,2,5,2,9,2,5,4,3,Bacteria,Proteobacteria,Betaproteobacteria,Methylophilales,Methylophilaceae,Methylobacillus,Methylobacillus flagellatus
+OUT_202,4,8,1,8,3,2,5,0,6,5,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Bacillus sp. ARI8
+OUT_203,1,4,4,2,4,4,10,6,5,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter dokdonensis DS-58
+OUT_204,2,4,4,3,2,3,10,5,3,6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Rhodoplanes,Rhodoplanes sp. JA333
+OUT_205,2,8,1,6,4,6,11,1,2,1,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides aquiterrae
+OUT_206,4,5,2,7,0,1,3,8,8,4,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Microbispora,Microbispora sp. SH05-03
+OUT_207,1,0,0,3,0,2,32,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured bacterium
+OUT_208,5,7,3,0,5,5,6,6,1,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_209,7,5,2,3,3,5,5,0,4,6,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Gracilibacillus,Gracilibacillus sp. DstIII-1
+OUT_210,3,5,2,0,0,3,4,5,13,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_211,0,3,8,0,1,14,7,6,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium sp. FSBRD3
+OUT_212,1,10,3,0,2,6,13,3,0,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Promicromonospora,Promicromonospora sukumoe
+OUT_213,6,2,5,2,3,3,7,3,3,5,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_214,0,1,6,0,0,0,0,4,11,17,Bacteria,Actinobacteria,Actinobacteria,Glycomycetales,Glycomycetaceae,Glycomyces,Glycomyces sp. Ku11-91
+OUT_215,3,3,3,2,6,2,6,2,4,7,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_216,2,7,7,4,4,5,1,4,2,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_217,4,11,2,0,7,2,1,4,5,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_218,3,2,9,1,0,4,6,2,1,10,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured bacterium
+OUT_219,2,2,3,4,3,3,4,2,11,4,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,Virgibacillus sediminis
+OUT_220,6,0,2,5,8,6,5,1,2,2,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. Cra38
+OUT_221,3,1,3,2,9,6,6,0,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_222,2,3,2,2,2,4,3,2,10,7,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_223,3,2,2,5,2,5,6,2,7,3,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,uncultured bacterium
+OUT_224,2,6,6,9,3,2,3,0,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. HME7618
+OUT_225,1,5,1,5,1,3,7,7,5,2,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,bacterium JP37
+OUT_226,2,4,1,0,2,13,4,0,7,4,Bacteria,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,Methylobacter,Methylobacter sp. 5FB
+OUT_227,2,1,0,6,5,4,0,15,1,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga rupis
+OUT_228,1,3,0,5,5,6,4,10,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sporothermodurans
+OUT_229,1,1,6,2,2,5,7,3,5,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sphingomonas sp. 86
+OUT_230,5,1,5,3,3,1,1,5,10,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_231,4,2,0,8,2,0,3,9,4,3,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Leifsonia,Leifsonia psychrotolerans
+OUT_232,0,1,3,0,7,9,9,1,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sphingomonas sp. XB188
+OUT_233,5,3,1,5,2,1,3,4,8,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus barengoltzii G22
+OUT_234,3,4,6,2,7,3,2,1,4,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured organism
+OUT_235,1,8,4,0,0,3,7,3,8,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_236,3,4,4,2,6,2,7,3,3,0,Bacteria,Actinobacteria,Actinobacteria,Kineosporiales,Kineosporiaceae,Kineococcus,uncultured bacterium
+OUT_237,4,1,3,2,4,5,5,5,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_238,1,5,7,2,1,6,5,4,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Cenchrus americanus
+OUT_239,4,4,2,2,2,5,4,5,0,5,Bacteria,Actinobacteria,Actinobacteria,Frankiales,Geodermatophilaceae,Blastococcus,Blastococcus sp. SU15
+OUT_240,5,5,2,7,0,1,5,2,6,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_241,2,3,2,7,6,4,4,0,2,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_242,0,7,3,0,0,8,14,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,uncultured bacterium
+OUT_243,3,5,7,2,1,5,7,0,1,2,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,bacterium DOAN6/4
+OUT_244,0,6,20,0,1,1,2,0,2,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. AMF1075
+OUT_245,2,3,0,11,0,2,2,4,6,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. HME7702
+OUT_246,4,4,0,8,5,3,1,7,0,0,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured Acidobacteria bacterium
+OUT_247,0,2,1,19,3,1,0,3,0,3,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_248,1,0,27,2,0,0,0,2,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,uncultured bacterium
+OUT_249,1,0,0,14,1,0,0,8,3,5,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured gamma proteobacterium
+OUT_250,5,1,2,7,3,5,2,1,5,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Lysinibacillus fusiformis
+OUT_251,3,2,2,4,7,4,4,3,2,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. BSi20450
+OUT_252,6,3,1,1,4,3,6,1,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium tarimense
+OUT_253,5,2,1,2,0,2,4,4,1,11,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. CNS-578_SD06
+OUT_254,2,6,3,2,1,5,3,3,5,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas,Xanthomonas citri
+OUT_255,2,0,0,9,4,3,5,6,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Rhodoplanes,uncultured bacterium
+OUT_256,4,5,4,1,1,4,3,0,7,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Nitrobacter,Nitrobacter winogradskyi
+OUT_257,1,5,2,0,3,2,9,1,1,7,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp. GN-10827
+OUT_258,2,6,2,0,4,4,4,1,3,5,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_259,4,2,6,3,0,4,3,5,1,3,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Brevibacteriaceae,Brevibacterium,Brevibacterium sp. LC297
+OUT_260,7,2,4,1,2,1,0,3,6,5,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas,uncultured bacterium
+OUT_261,1,3,4,2,5,3,2,0,6,5,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,uncultured gamma proteobacterium
+OUT_262,1,2,1,1,1,0,0,23,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Pontibacillus,Pontibacillus sp. TB238
+OUT_263,6,4,1,1,4,5,5,0,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_264,2,3,3,0,4,6,1,4,4,3,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_265,3,4,2,11,0,1,5,3,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Streptosporangium,Streptosporangium sp. TFS 224
+OUT_266,6,2,3,4,4,4,3,0,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Bacillus sp.
+OUT_267,4,6,4,0,2,4,2,4,2,2,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosomonas,Nitrosomonas communis
+OUT_268,5,2,2,2,3,0,1,3,9,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_269,2,3,2,4,2,3,4,8,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_270,3,3,1,4,2,4,3,2,1,6,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured bacterium
+OUT_271,5,2,3,4,2,2,4,1,4,2,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes missouriensis
+OUT_272,1,5,0,2,0,2,5,7,4,3,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,bacterium NR3
+OUT_273,0,7,4,2,2,5,5,1,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_274,2,4,3,1,5,2,3,3,5,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_275,2,4,1,2,3,3,3,2,4,5,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus barengoltzii
+OUT_276,3,1,2,1,20,2,0,0,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,bacterium 14C13
+OUT_277,4,6,3,0,0,2,7,3,3,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces coelicoflavus
+OUT_278,2,1,0,5,5,3,1,3,5,3,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Phytohabitans,uncultured bacterium
+OUT_279,5,2,0,2,6,1,2,0,10,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,Micromonospora haikouensis
+OUT_280,0,0,4,0,0,1,0,2,11,10,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,Pseudonocardia sp. CASMBPK3
+OUT_281,4,3,0,3,5,6,3,1,3,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium tusciae JS617
+OUT_282,0,5,1,1,1,6,4,5,4,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_283,2,3,3,6,3,0,3,2,5,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus humi
+OUT_284,9,1,0,5,2,2,1,5,2,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sannurensis
+OUT_285,4,1,1,9,2,1,0,3,6,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_286,2,2,1,9,4,2,2,4,2,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,uncultured compost bacterium
+OUT_287,5,1,1,2,11,2,2,1,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_288,0,1,0,0,0,2,25,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. 7188T
+OUT_289,0,10,1,2,2,3,2,2,1,4,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_290,2,2,1,4,4,1,3,5,4,1,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,uncultured bacterium
+OUT_291,1,0,3,3,0,2,1,4,8,5,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_292,3,1,1,4,6,2,1,0,3,6,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planococcus,Planomicrobium koreense
+OUT_293,0,2,2,10,2,1,2,7,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Nocardiopsaceae,Thermobifida,Thermobifida fusca
+OUT_294,1,3,4,0,4,4,1,1,6,3,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_295,5,4,1,4,3,6,2,1,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured gamma proteobacterium
+OUT_296,2,0,0,1,2,1,0,2,14,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Oceanobacillus indicireducens
+OUT_297,5,3,0,6,0,1,3,4,2,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_298,3,2,2,2,5,4,2,1,1,4,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured Aquicella sp.
+OUT_299,8,2,0,2,1,0,2,2,0,9,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. CNJ958 PL04
+OUT_300,4,5,0,1,1,4,4,1,3,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured soil bacterium
+OUT_301,3,1,1,9,0,2,3,2,2,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured Geobacillus sp.
+OUT_302,3,2,0,3,1,2,3,0,7,5,Bacteria,Planctomycetes,Planctomycetacia,Planctomycetales,Planctomycetaceae,Rhodopirellula,uncultured planctomycete
+OUT_303,1,4,1,3,4,1,2,5,4,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_304,3,4,0,2,0,4,4,3,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,Mesorhizobium amorphae
+OUT_305,1,5,4,1,4,3,2,1,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_306,3,0,1,2,3,3,1,3,4,5,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_307,3,1,0,7,1,2,6,3,1,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_308,7,1,2,2,2,2,2,3,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_309,1,5,0,5,5,2,3,2,1,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,uncultured bacterium
+OUT_310,3,7,1,0,4,2,5,2,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_311,5,0,0,6,3,1,2,2,1,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium 5-33
+OUT_312,3,3,2,3,3,1,3,1,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_313,2,2,1,1,6,2,2,3,2,4,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_314,5,0,2,2,1,1,1,12,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_315,2,3,0,10,6,1,0,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_316,5,2,1,0,0,2,5,5,2,2,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,Micromonospora fulviviridis
+OUT_317,2,5,0,1,5,4,4,0,2,1,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured organism
+OUT_318,2,2,1,3,5,2,7,0,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_319,3,5,1,4,1,4,3,2,0,1,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp. lig17
+OUT_320,5,1,1,1,4,1,3,5,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured bacterium
+OUT_321,4,1,1,2,4,2,1,5,0,4,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas,Pseudoxanthomonas taiwanensis
+OUT_322,1,6,1,1,1,3,5,4,2,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces phaeochromogenes
+OUT_323,2,0,6,4,2,0,2,4,4,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. WM-2
+OUT_324,1,1,3,6,2,0,5,0,4,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured Caulobacteraceae bacterium
+OUT_325,1,4,3,3,5,4,1,0,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. Z0-YC6813
+OUT_326,1,6,1,0,4,0,7,1,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_327,1,2,2,2,1,2,5,7,0,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured actinobacterium
+OUT_328,2,3,2,2,6,0,4,1,2,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus pichinotyi
+OUT_329,3,2,1,6,2,1,2,2,2,3,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosomonas,uncultured bacterium
+OUT_330,2,6,2,4,0,1,3,1,3,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,uncultured bacterium
+OUT_331,1,0,0,7,7,2,0,0,0,7,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonadaceae bacterium
+OUT_332,1,1,0,4,5,1,2,8,1,1,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Saccharomonospora,uncultured bacterium
+OUT_333,2,3,2,0,2,2,1,5,3,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_334,0,0,2,2,0,1,2,3,8,6,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Nonomuraea,Nonomuraea longicatena
+OUT_335,6,3,0,3,4,1,1,1,3,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_336,0,9,2,0,0,7,3,1,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Cedecea,uncultured bacterium
+OUT_337,1,3,1,3,2,2,7,1,2,1,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,Pseudonocardia sp. CC980219-11
+OUT_338,0,2,0,0,0,10,3,7,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Dermabacteraceae,Brachybacterium,uncultured bacterium
+OUT_339,3,3,5,1,1,2,3,2,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_340,0,3,0,0,0,8,5,5,1,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. TJ18b
+OUT_341,4,0,0,2,1,4,4,4,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_342,3,2,0,2,4,4,4,2,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium sp. W6
+OUT_343,4,2,1,5,3,0,4,3,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_344,1,5,0,6,0,4,5,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured bacterium
+OUT_345,1,1,2,2,1,4,7,2,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Zymomonas,uncultured Sphingomonas sp.
+OUT_346,5,3,2,1,0,1,3,2,1,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_347,3,1,2,6,1,3,1,2,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Bacillus sp. YT0042
+OUT_348,0,4,1,3,6,2,1,0,2,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Firmicutes bacterium
+OUT_349,2,1,6,0,1,2,3,0,0,7,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,uncultured gamma proteobacterium
+OUT_350,6,3,3,0,0,5,1,1,0,3,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_351,3,2,1,4,2,2,1,3,0,4,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus ginsengihumi
+OUT_352,1,5,0,4,3,2,1,3,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Thermoactinomycetaceae,Thermoactinomyces,uncultured bacterium
+OUT_353,3,1,7,0,3,2,1,2,1,2,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured Bacteroidetes bacterium
+OUT_354,2,2,0,2,3,1,6,2,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. NBK47
+OUT_355,3,4,1,0,2,4,3,0,3,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,uncultured bacterium
+OUT_356,0,3,14,0,0,0,3,1,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,uncultured Halomonas sp.
+OUT_357,1,5,1,5,3,0,1,0,5,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus carboniphilus
+OUT_358,4,0,3,3,1,2,3,1,5,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. IIPON6
+OUT_359,4,2,1,4,3,5,0,2,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. PP10
+OUT_360,0,1,0,0,0,20,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. XJ 1-6-5
+OUT_361,1,3,1,4,1,3,2,1,4,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,uncultured bacterium
+OUT_362,1,7,2,0,1,3,2,0,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_363,2,4,0,1,3,2,4,3,1,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Cellulomonadaceae,Cellulomonas,Cellulomonas sp. EMB 74
+OUT_364,0,5,0,1,1,10,4,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_365,2,7,1,4,0,0,0,5,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Asticcacaulis,uncultured Asticcacaulis sp.
+OUT_366,2,2,3,1,2,2,4,1,4,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_367,5,1,1,5,2,0,0,1,3,3,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,uncultured bacterium
+OUT_368,2,0,6,2,2,2,1,2,3,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,uncultured bacterium
+OUT_369,1,3,3,0,1,0,2,2,6,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus cibi
+OUT_370,1,2,2,9,1,2,1,2,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas,uncultured bacterium
+OUT_371,3,1,1,2,9,0,1,1,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_372,2,0,0,4,4,0,2,7,1,0,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured Bacteroidetes bacterium
+OUT_373,1,4,0,3,2,2,2,4,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_374,2,2,3,3,2,1,0,3,1,3,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_375,0,6,4,1,1,1,2,0,2,3,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides sp. W-NB-18
+OUT_376,4,2,0,6,5,0,0,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_377,2,4,3,1,4,0,1,1,3,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. JL21
+OUT_378,3,2,1,2,2,1,3,2,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured alpha proteobacterium
+OUT_379,4,2,2,0,3,3,1,1,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,Devosia submarina
+OUT_380,1,2,0,6,1,1,0,3,3,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,Geobacillus thermodenitrificans
+OUT_381,0,0,0,0,0,0,0,20,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Olivibacter,Olivibacter sp. LC224
+OUT_382,5,0,2,0,1,0,2,4,3,3,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Arcticibacter,uncultured bacterium
+OUT_383,6,0,1,2,2,2,0,1,3,3,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Nonomuraea,uncultured bacterium
+OUT_384,4,0,1,0,0,3,7,1,2,2,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. WMMB 458
+OUT_385,2,6,0,0,1,5,0,1,2,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_386,3,1,1,2,3,1,0,3,2,3,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_387,0,3,3,0,2,0,2,5,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_388,0,5,0,8,3,2,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Bacillus sp.
+OUT_389,1,1,4,1,2,1,1,4,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_390,2,1,0,0,11,1,3,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sphingobium chlorophenolicum
+OUT_391,3,3,1,0,3,2,1,1,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_392,4,1,2,0,4,1,1,0,4,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Methylibium,beta proteobacterium HF006
+OUT_393,1,2,3,1,2,0,1,3,1,5,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_394,4,2,2,1,3,1,3,3,0,0,Bacteria,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,uncultured bacterium
+OUT_395,0,2,1,1,4,0,1,2,6,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_396,3,5,0,3,4,1,2,1,0,0,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured Nitrospiraceae bacterium
+OUT_397,2,6,0,3,0,2,0,3,2,1,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Actinomycetospora,Actinomycetospora sp. G2X67
+OUT_398,0,3,1,6,3,3,1,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Cohnella,uncultured bacterium
+OUT_399,4,4,2,1,2,1,3,2,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas sp. FSBSN2
+OUT_400,0,4,3,0,0,4,5,2,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. Ebht3
+OUT_401,1,3,0,2,4,1,5,3,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured alpha proteobacterium
+OUT_402,4,1,2,1,2,3,2,2,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_403,1,1,5,0,0,1,1,10,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Isoptericola,Cellulomonas sp. IFO16242
+OUT_404,6,1,0,2,3,1,0,2,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_405,1,5,0,2,2,1,3,1,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. 1NLA3E
+OUT_406,3,1,1,2,1,4,0,1,2,3,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Pontibacter,Pontibacter populi
+OUT_407,2,2,2,0,1,1,6,2,1,1,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured bacterium
+OUT_408,0,0,0,10,3,1,0,3,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. RNS-1
+OUT_409,2,0,3,2,2,0,1,0,3,5,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Actinophytocola,uncultured bacterium
+OUT_410,7,0,2,0,6,1,0,0,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Serpens flexibilis
+OUT_411,2,0,1,1,4,0,2,1,6,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus hwajinpoensis
+OUT_412,0,5,0,1,3,1,1,3,3,1,Bacteria,Planctomycetes,Planctomycetacia,Planctomycetales,Planctomycetaceae,Rhodopirellula,uncultured bacterium
+OUT_413,2,2,2,0,5,1,2,0,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Brucellaceae,Ochrobactrum,uncultured bacterium
+OUT_414,0,3,3,1,0,5,2,0,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured bacterium
+OUT_415,3,1,1,1,3,1,0,3,0,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_416,1,2,2,1,1,5,1,3,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,[Pseudomonas] geniculata
+OUT_417,0,3,3,0,0,2,2,0,1,6,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured bacterium
+OUT_418,1,1,3,0,1,2,1,6,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_419,3,1,0,1,1,3,1,1,5,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_420,0,0,1,0,1,4,7,2,1,1,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_421,3,1,1,3,2,1,3,1,1,1,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured Gemmatimonadetes bacterium
+OUT_422,2,3,0,6,1,1,1,2,1,0,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystaceae,Nannocystis,uncultured bacterium
+OUT_423,1,1,1,1,3,1,3,0,2,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_424,1,2,0,2,3,1,0,7,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured Caulobacterales bacterium
+OUT_425,1,3,1,1,3,0,1,3,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,uncultured bacterium
+OUT_426,4,1,0,3,5,0,1,0,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_427,1,1,0,0,1,0,1,1,10,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus benzoevorans
+OUT_428,2,2,6,1,2,1,0,2,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga sp. LAM9153
+OUT_429,0,1,2,0,3,1,4,4,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_430,0,6,2,2,1,1,2,1,1,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,Pedobacter sp. b3W6a-b1
+OUT_431,1,2,2,2,3,4,0,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_432,4,2,1,1,0,1,2,0,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,Hyphomicrobium sp. KC-IT-W2
+OUT_433,2,1,0,3,0,2,1,2,4,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,Sporosarcina sp. LCSAOTU9
+OUT_434,1,2,1,3,1,4,2,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Crossiella,uncultured actinobacterium
+OUT_435,4,0,7,0,1,1,0,0,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_436,2,0,3,3,0,1,2,3,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_437,2,2,3,1,1,0,0,2,1,4,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,Punica granatum (pomegranate)
+OUT_438,3,1,1,0,3,0,1,2,1,4,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_439,4,2,0,0,4,0,5,0,1,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Cupriavidus,Cupriavidus sp. A2
+OUT_440,4,0,1,0,5,1,2,0,0,3,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_441,0,1,0,1,3,3,4,3,1,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp. L1E08A
+OUT_442,1,0,2,4,3,1,2,0,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_443,2,1,3,2,5,0,2,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_444,1,4,1,2,0,1,3,3,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,uncultured compost bacterium
+OUT_445,0,2,1,1,2,1,2,1,5,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,uncultured bacterium
+OUT_446,0,0,5,0,0,0,0,0,6,5,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_447,0,0,0,2,0,3,4,5,1,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,uncultured bacterium
+OUT_448,1,1,2,1,1,1,1,2,0,6,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Ornithinibacillus sp. GIESS002
+OUT_449,1,5,1,0,0,1,2,1,2,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured Paenibacillaceae bacterium
+OUT_450,2,2,2,0,0,2,5,1,2,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Kocuria,uncultured bacterium
+OUT_451,1,2,1,1,4,0,1,0,5,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus horneckiae
+OUT_452,3,3,0,1,3,3,0,2,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_453,1,0,1,0,2,4,1,0,1,6,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured Acidobacteria bacterium
+OUT_454,2,1,2,4,0,0,1,4,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_455,0,4,2,0,0,4,0,2,2,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Xanthomonas,uncultured bacterium
+OUT_456,0,0,4,0,0,1,0,1,7,3,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,uncultured Xanthomonadaceae bacterium
+OUT_457,2,3,1,3,3,0,0,2,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. XJ148-N30-3
+OUT_458,0,2,1,0,3,1,2,1,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_459,1,1,0,1,1,1,4,5,0,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Cellulomonadaceae,Cellulomonas,Cellulomonas sp. enrichment culture clone O8
+OUT_460,1,3,0,2,2,1,1,1,2,2,Bacteria,Actinobacteria,Actinobacteria,Kineosporiales,Kineosporiaceae,Kineosporia,uncultured bacterium
+OUT_461,2,2,0,2,2,2,0,0,3,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_462,1,4,0,0,1,2,4,1,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_463,1,2,0,1,0,2,4,2,3,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured bacterium
+OUT_464,0,3,2,1,3,3,1,0,0,2,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Virgibacillus sp. JANV-5
+OUT_465,1,1,1,3,3,5,1,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_466,2,0,2,5,1,0,2,1,2,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured bacterium
+OUT_467,1,2,0,0,1,4,2,3,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Brucellaceae,Ochrobactrum,uncultured Rhizobiales bacterium
+OUT_468,1,1,0,3,0,0,0,5,0,5,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Rhodococcus sp. GBA_111-04
+OUT_469,2,1,0,1,2,4,4,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_470,3,2,3,0,0,3,2,0,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus pocheonensis
+OUT_471,2,0,4,0,0,1,2,2,2,2,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,Agromyces sp. FRBN9
+OUT_472,0,10,0,0,0,1,0,0,2,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,uncultured bacterium
+OUT_473,1,3,0,4,2,2,0,2,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,uncultured bacterium
+OUT_474,2,1,4,1,1,1,2,1,1,1,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,Rhodococcus rhodochrous
+OUT_475,3,2,1,0,3,1,1,4,0,0,Bacteria,Chloroflexi,Chloroflexia,Chloroflexales,Roseiflexaceae,Roseiflexus,uncultured bacterium
+OUT_476,0,0,2,1,1,0,0,1,8,2,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura,uncultured bacterium
+OUT_477,1,1,1,2,1,0,0,5,3,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas nitroreducens
+OUT_478,1,4,3,2,1,2,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured alpha proteobacterium
+OUT_479,3,0,1,1,1,3,0,0,4,1,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Dactylosporangium,Dactylosporangium matsuzakiense
+OUT_480,2,1,1,0,1,0,2,3,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_481,0,0,4,1,1,3,0,1,2,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Noviherbaspirillum,uncultured bacterium
+OUT_482,1,1,2,1,1,0,2,2,0,4,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_483,2,3,0,2,2,1,1,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_484,1,0,0,2,4,1,2,0,0,4,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteibacter,uncultured Luteibacter sp.
+OUT_485,4,1,0,0,0,1,5,0,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured bacterium
+OUT_486,0,1,0,7,0,0,3,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured organism
+OUT_487,1,0,2,0,3,0,0,0,4,4,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_488,0,1,2,0,2,0,1,2,5,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured Nitrobacter sp.
+OUT_489,2,1,0,7,2,0,0,0,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_490,0,0,0,0,4,4,3,1,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_491,0,0,4,0,0,0,0,0,7,3,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_492,3,0,2,0,1,3,1,2,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_493,1,0,2,1,0,3,2,0,4,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_494,0,2,1,1,1,3,3,1,2,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_495,1,2,3,1,0,2,1,0,2,2,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured bacterium
+OUT_496,0,2,0,0,2,2,3,1,1,3,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured Aeromicrobium sp.
+OUT_497,1,0,1,1,1,1,4,4,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. CNQ-085_SD01
+OUT_498,3,0,1,1,5,1,1,2,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Dyella,uncultured bacterium
+OUT_499,2,0,0,4,2,0,1,2,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. M71_S33
+OUT_500,7,1,2,0,2,1,1,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,uncultured bacterium
+OUT_501,0,0,0,1,1,2,1,1,2,6,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_502,2,2,0,1,4,0,1,1,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,uncultured bacterium
+OUT_503,2,2,6,0,0,0,1,0,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_504,0,0,6,0,0,0,0,1,5,2,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_505,5,0,0,3,0,0,4,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Lysinibacillus fusiformis
+OUT_506,3,2,0,0,2,0,5,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,uncultured Firmicutes bacterium
+OUT_507,3,3,0,1,1,1,2,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured bacterium
+OUT_508,5,0,1,0,2,1,0,0,1,3,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured bacterium
+OUT_509,1,1,1,3,1,0,1,5,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_510,1,0,0,1,2,6,1,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. X6
+OUT_511,1,1,1,5,1,0,1,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,Bacillus sp. DB78(2010)
+OUT_512,1,1,1,2,4,2,0,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_513,0,1,0,0,5,2,1,0,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_514,0,1,0,1,2,1,0,4,2,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_515,3,1,3,0,1,2,2,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes deccanensis
+OUT_516,0,0,0,3,1,0,1,2,3,3,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Pontibacter,Pontibacter sp. LX8
+OUT_517,2,1,1,1,3,1,2,0,0,2,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Actinophytocola,uncultured bacterium
+OUT_518,3,2,0,0,1,3,2,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_519,2,1,0,2,2,2,1,3,0,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp.
+OUT_520,1,1,0,1,3,2,1,0,3,1,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosospira,uncultured bacterium
+OUT_521,2,4,0,0,0,1,2,0,3,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,bacterium PG
+OUT_522,0,2,1,5,1,1,0,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. 1MBB1
+OUT_523,1,3,2,0,0,1,3,2,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. SRAUA1
+OUT_524,1,1,0,0,1,1,8,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces lannensis
+OUT_525,2,0,1,2,1,2,3,1,0,1,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystaceae,Nannocystis,Nannocystis exedens
+OUT_526,1,0,0,9,0,0,3,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. 4349
+OUT_527,0,1,0,0,3,3,6,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Novosphingobium lindaniclasticum LE124
+OUT_528,2,1,0,0,1,3,1,0,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_529,1,2,1,1,0,1,2,1,1,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus subtilis
+OUT_530,1,0,3,0,1,4,1,1,2,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,Sphingobacterium daejeonense
+OUT_531,1,0,1,2,1,1,1,1,2,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_532,2,0,1,5,0,0,1,1,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,Oceanobacillus sp. R1-104-1
+OUT_533,0,1,6,0,1,0,1,2,2,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. D-1
+OUT_534,0,2,0,1,1,0,1,3,2,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_535,0,3,7,0,0,1,1,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,uncultured bacterium
+OUT_536,0,2,2,2,0,1,1,2,1,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. DF14
+OUT_537,0,2,3,0,3,1,0,2,2,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Nocardiopsaceae,Thermobifida,Thermobifida alba
+OUT_538,3,5,0,0,2,0,1,0,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,uncultured Modicisalibacter sp.
+OUT_539,0,0,12,0,0,1,0,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,Rheinheimera,uncultured bacterium
+OUT_540,2,1,2,0,1,0,0,3,1,3,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_541,3,2,0,1,1,0,0,2,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,uncultured bacterium
+OUT_542,3,2,0,1,1,0,2,2,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_543,1,1,1,0,1,1,1,3,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_544,2,2,0,1,1,2,0,2,2,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured Bacteroidetes bacterium
+OUT_545,1,0,1,0,1,3,1,2,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,Phenylobacterium sp. THG-DN6.2
+OUT_546,0,3,0,0,1,4,2,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_547,1,0,2,0,3,2,1,1,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Kaistobacter sp. V3M19
+OUT_548,1,1,0,1,1,0,2,0,2,4,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces xishensis
+OUT_549,0,3,0,0,0,5,3,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured Aquicella sp.
+OUT_550,2,3,0,0,1,1,1,2,0,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_551,0,1,3,1,1,2,0,0,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_552,0,0,6,0,3,0,1,0,1,1,Bacteria,Actinobacteria,Actinobacteria,Glycomycetales,Glycomycetaceae,Glycomyces,Glycomyces harbinensis
+OUT_553,1,1,0,3,2,0,4,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_554,1,0,1,1,0,1,2,4,2,0,Bacteria,Firmicutes,Clostridia,Clostridiales,Clostridiaceae 1,Clostridium sensu stricto 12,uncultured soil bacterium
+OUT_555,4,0,0,0,2,1,0,0,1,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Rhodoplanes,uncultured bacterium
+OUT_556,1,1,2,1,0,2,4,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_557,2,2,1,1,2,0,2,0,0,2,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Cohnella,uncultured bacterium
+OUT_558,3,0,1,4,0,2,2,0,0,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured Gemmatimonadetes bacterium
+OUT_559,2,1,0,0,4,0,0,3,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_560,0,0,1,1,1,0,0,0,5,4,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Oceanobacillus,uncultured bacterium
+OUT_561,1,1,1,0,3,2,2,1,1,0,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystaceae,Nannocystis,uncultured bacterium
+OUT_562,1,0,2,1,0,0,1,1,2,4,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured bacterium
+OUT_563,3,0,1,0,0,1,4,1,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_564,1,0,1,0,2,3,1,0,1,3,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_565,0,3,0,0,0,1,8,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces jumonjinensis
+OUT_566,1,1,0,1,1,0,3,5,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,uncultured soil bacterium
+OUT_567,1,0,0,6,0,0,0,5,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. LnR5-44
+OUT_568,0,0,0,1,2,3,0,0,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus halodurans
+OUT_569,0,1,0,1,1,5,1,0,1,2,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured Flavobacterium sp.
+OUT_570,3,0,0,0,1,2,3,0,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,Brevibacterium sp. KNUC240
+OUT_571,0,1,2,1,0,1,1,4,0,2,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured bacterium
+OUT_572,1,3,1,0,2,1,1,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_573,1,1,2,1,0,2,2,0,1,2,Bacteria,Planctomycetes,Planctomycetacia,Planctomycetales,Planctomycetaceae,Rhodopirellula,uncultured bacterium
+OUT_574,0,3,0,1,3,0,0,0,0,5,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. FJAT-17212
+OUT_575,1,4,2,0,1,1,0,1,2,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Arcticibacter,uncultured bacterium
+OUT_576,1,0,0,5,2,1,1,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Streptosporangiaceae,Microbispora,Microbispora sp. CRCB7
+OUT_577,0,3,1,3,2,0,0,1,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Anaerobacillus,Anaerobacillus alkalilacustris
+OUT_578,1,3,0,0,2,1,2,0,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_579,1,3,0,0,0,5,1,2,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Altererythrobacter sp. kmb64
+OUT_580,0,0,2,0,2,2,2,0,2,2,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Citricoccus,uncultured bacterium
+OUT_581,1,1,1,0,0,1,2,5,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Isoptericola,Isoptericola variabilis
+OUT_582,0,0,1,0,2,1,0,2,4,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. E11
+OUT_583,0,3,2,0,0,4,2,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas marincola
+OUT_584,2,1,0,4,1,0,1,0,2,1,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosomonas,uncultured bacterium
+OUT_585,0,1,2,1,1,0,0,3,2,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter indicus
+OUT_586,2,2,1,0,0,1,2,0,0,3,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured Steroidobacter sp.
+OUT_587,0,1,2,0,1,3,1,2,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_588,2,2,0,0,1,1,1,0,4,0,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_589,0,0,1,0,4,2,2,0,2,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes arizonaensis
+OUT_590,1,0,1,1,0,0,0,7,0,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_591,1,0,1,3,1,2,0,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_592,2,2,3,0,0,0,0,0,3,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,uncultured bacterium
+OUT_593,2,0,0,5,3,0,0,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured soil bacterium
+OUT_594,1,0,1,1,1,0,2,1,3,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,agricultural soil bacterium SC-I-81
+OUT_595,0,0,1,1,2,0,3,1,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_596,0,0,0,6,0,0,1,3,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Inquilinus,Inquilinus limosus DSM 16000
+OUT_597,0,0,1,1,2,1,4,2,0,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Actinophytocola,Amycolatopsis sp. 07-Be-008
+OUT_598,0,0,0,8,0,0,2,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,Pseudonocardia sp. L1B15
+OUT_599,0,1,2,0,0,0,3,1,3,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_600,1,1,0,0,2,2,2,0,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. RAI6
+OUT_601,3,1,0,1,3,1,1,0,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured Bacteroidetes bacterium
+OUT_602,1,0,0,0,1,1,5,2,1,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Amycolatopsis,Amycolatopsis ultiminotia
+OUT_603,2,1,0,1,1,1,1,1,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_604,1,0,2,2,1,0,0,1,2,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,[Bacillus] vedderi
+OUT_605,0,1,1,2,2,0,4,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Microbacterium sp. 44
+OUT_606,2,2,0,0,1,2,2,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured Skermanella sp.
+OUT_607,1,1,1,3,3,0,1,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. LS26
+OUT_608,1,0,0,0,3,1,0,3,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_609,2,3,1,1,0,2,1,1,0,0,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured bacterium
+OUT_610,1,0,0,0,0,2,1,1,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_611,0,1,0,1,3,0,2,0,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,uncultured bacterium
+OUT_612,0,3,1,1,1,0,2,0,0,3,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_613,1,0,0,1,1,2,2,1,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured Firmicutes bacterium
+OUT_614,1,0,0,0,0,1,7,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_615,1,0,1,3,2,0,2,1,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter spongiicola
+OUT_616,2,1,3,1,2,1,0,1,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,Variovorax dokdonensis
+OUT_617,11,0,0,0,0,0,0,0,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga sp. 3MIIa
+OUT_618,0,1,1,1,1,0,1,3,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_619,0,1,0,1,2,1,3,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Gracilibacillus,Gracilibacillus sp. EM31
+OUT_620,1,3,0,3,1,0,0,0,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_621,3,1,1,0,3,0,1,0,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_622,0,1,0,1,3,0,4,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. T79
+OUT_623,0,3,0,3,0,0,0,2,0,3,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,Cellvibrio japonicus Ueda107
+OUT_624,1,2,1,0,1,1,2,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus sp. MY11,Virgibacillus sp. MY11
+OUT_625,5,1,0,0,3,0,0,1,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,uncultured bacterium
+OUT_626,0,4,0,1,0,1,1,2,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_627,2,0,0,2,1,3,1,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Flavobacterium columnare
+OUT_628,3,0,2,2,0,0,1,1,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_629,2,2,3,1,0,1,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_630,0,2,0,0,0,2,3,0,3,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_631,0,1,0,0,0,3,3,1,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured bacterium
+OUT_632,1,2,1,1,0,1,2,2,0,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_633,0,1,0,0,1,0,0,2,2,4,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_634,0,2,0,0,0,6,1,0,0,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Cupriavidus,uncultured beta proteobacterium
+OUT_635,0,1,0,0,2,1,3,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_636,1,1,0,4,0,0,0,3,1,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured Gemmatimonas sp.
+OUT_637,0,2,0,0,2,0,1,4,0,1,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_638,1,3,0,0,1,0,1,2,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured alpha proteobacterium
+OUT_639,1,1,0,2,1,1,2,0,0,2,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinoallomurus,Actinoallomurus sp. ACT-0150
+OUT_640,0,0,2,0,1,2,0,1,3,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,glacier bacterium FJS5
+OUT_641,0,0,2,1,1,1,2,0,3,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,Micromonospora sp. BY351
+OUT_642,0,0,0,3,3,1,0,3,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Niastella,uncultured bacterium
+OUT_643,0,1,0,0,2,3,2,0,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_644,2,0,0,4,2,0,0,1,1,0,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_645,2,0,1,1,0,2,3,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured bacterium
+OUT_646,1,0,1,0,2,3,2,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus acidicola
+OUT_647,2,2,3,0,0,0,2,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_648,0,3,0,2,0,0,2,1,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bosea,Bosea thiooxidans
+OUT_649,0,0,0,3,0,0,2,3,1,1,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured bacterium
+OUT_650,0,6,1,0,0,1,1,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Enterobacter,uncultured bacterium
+OUT_651,0,1,1,5,0,1,0,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,uncultured bacterium
+OUT_652,1,1,3,0,0,1,1,0,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured soil bacterium
+OUT_653,1,0,1,1,1,2,1,1,2,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides sp. CC-MHH0049
+OUT_654,0,1,7,0,0,0,1,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_655,1,0,0,0,0,1,2,4,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus mendelii
+OUT_656,0,0,0,6,1,0,0,3,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_657,3,0,2,2,0,0,0,1,2,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides sp. RaM5-15
+OUT_658,3,1,0,1,0,0,0,0,5,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Saccharomonospora,Saccharomonospora viridis
+OUT_659,1,1,4,0,1,0,0,3,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga cymbidii
+OUT_660,0,1,0,2,1,2,1,0,1,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_661,1,4,2,1,1,0,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces viridodiastaticus
+OUT_662,0,2,2,0,0,2,3,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Pimelobacter simplex
+OUT_663,1,2,0,0,0,0,0,1,5,1,Bacteria,Firmicutes,Clostridia,Clostridiales,Peptococcaceae,Desulfitobacterium,Desulfitobacterium dichloroeliminans LMG P-21439
+OUT_664,3,0,1,0,1,2,0,0,2,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,uncultured soil bacterium
+OUT_665,0,1,1,1,2,1,2,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces thermoluteus
+OUT_666,1,1,1,0,1,1,2,1,0,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_667,0,3,1,0,1,1,2,2,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Promicromonosporaceae,Cellulosimicrobium,actinobacterium TB7
+OUT_668,0,2,0,0,2,2,1,0,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,uncultured bacterium
+OUT_669,0,0,4,0,0,2,1,3,0,0,Bacteria,Actinobacteria,Actinobacteria,Glycomycetales,Glycomycetaceae,Glycomyces,Glycomyces sp. IF11
+OUT_670,0,1,2,0,0,0,0,1,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Bacillus sp.
+OUT_671,0,0,0,1,0,1,0,1,1,5,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured soil bacterium
+OUT_672,0,0,0,4,1,1,1,0,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Bacillus sp. K7SC-3B
+OUT_673,0,2,1,0,1,2,1,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,uncultured bacterium
+OUT_674,1,3,0,0,4,0,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobiaceae bacterium KVD-unk-32
+OUT_675,2,0,0,1,1,1,2,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Phenylobacterium,uncultured Caulobacteraceae bacterium
+OUT_676,1,1,1,0,1,1,1,0,1,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax,uncultured proteobacterium
+OUT_677,1,0,0,3,1,0,1,3,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Porphyrobacter,uncultured bacterium
+OUT_678,3,1,0,0,1,0,3,0,0,1,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured bacterium
+OUT_679,1,2,0,1,1,1,1,0,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Sinorhizobium sp. T32,Sinorhizobium sp. T32,Sinorhizobium sp. T32
+OUT_680,0,1,0,1,2,1,0,1,1,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,uncultured Bacteroidetes bacterium
+OUT_681,3,2,1,0,0,0,0,0,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_682,0,3,2,0,0,1,2,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. 35W
+OUT_683,0,0,1,0,2,2,1,1,0,2,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,uncultured Xanthomonadaceae bacterium
+OUT_684,3,0,0,0,1,1,0,3,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_685,0,1,2,0,2,1,0,1,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_686,0,0,2,2,2,0,1,1,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,uncultured Bradyrhizobiaceae bacterium
+OUT_687,0,1,1,0,0,0,1,2,3,1,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Catellatospora,Catellatospora citrea
+OUT_688,0,1,1,0,4,0,0,1,1,1,Bacteria,Proteobacteria,Betaproteobacteria,Rhodocyclales,Rhodocyclaceae,Azoarcus,uncultured bacterium
+OUT_689,0,1,0,0,1,1,2,3,1,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured bacterium
+OUT_690,0,1,1,0,0,0,2,2,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,uncultured Bradyrhizobium sp.
+OUT_691,0,2,0,0,0,0,2,4,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_692,1,0,2,0,0,3,1,0,2,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. CTDF1
+OUT_693,2,2,0,0,0,1,2,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_694,2,1,2,2,1,0,0,0,0,1,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_695,1,0,1,0,1,0,1,0,3,2,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Lysinibacillus,Lysinibacillus meyeri
+OUT_696,2,0,1,0,2,2,1,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Shinella,uncultured bacterium
+OUT_697,0,0,0,2,1,1,1,1,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Halobacillus sp. RO12
+OUT_698,0,1,4,0,1,2,0,0,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,Pedobacter sp. 13-Q
+OUT_699,2,1,0,0,1,2,0,0,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_700,0,0,1,2,3,0,1,2,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured bacterium
+OUT_701,0,0,2,0,0,6,0,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,uncultured bacterium
+OUT_702,1,1,1,0,2,0,1,2,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Nocardiopsaceae,Nocardiopsis,actinomycete TGcL-04-60
+OUT_703,0,1,0,1,0,1,4,0,1,1,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Gordonia,uncultured bacterium
+OUT_704,1,4,0,0,0,0,2,0,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_705,0,2,0,2,1,0,2,0,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. ZYK
+OUT_706,1,0,0,3,0,0,1,1,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured compost bacterium
+OUT_707,0,2,0,1,1,2,1,1,0,1,Bacteria,Planctomycetes,Planctomycetacia,Planctomycetales,Planctomycetaceae,Rhodopirellula,uncultured bacterium
+OUT_708,0,2,0,2,0,1,0,1,3,0,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura,uncultured bacterium
+OUT_709,1,2,2,1,0,0,0,1,2,0,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_710,2,2,2,0,1,1,0,1,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,Pedobacter sp. L2b-b1
+OUT_711,1,1,3,0,0,2,0,1,0,1,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured bacterium
+OUT_712,2,0,0,0,1,0,1,1,0,4,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus firmus
+OUT_713,0,2,1,0,4,1,0,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,Devosia chinhatensis
+OUT_714,1,1,0,1,3,0,0,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. DB189(2010)
+OUT_715,1,0,1,0,0,0,0,1,4,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_716,2,1,1,1,1,1,1,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,Virgibacillus campisalis
+OUT_717,2,1,1,0,1,0,2,0,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,bacterium MAR2
+OUT_718,0,1,0,1,0,1,3,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Williamsia,uncultured Williamsia sp.
+OUT_719,2,0,0,2,4,0,0,0,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Niastella,uncultured bacterium
+OUT_720,2,0,0,3,1,1,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_721,0,2,2,0,0,1,2,0,1,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_722,2,1,1,0,1,0,0,0,1,2,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Cupriavidus,Cupriavidus basilensis
+OUT_723,0,0,3,2,2,0,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_724,1,0,0,2,0,0,1,2,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus horikoshii
+OUT_725,0,1,0,2,3,0,0,1,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_726,4,0,1,0,0,1,0,1,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,uncultured bacterium
+OUT_727,0,1,0,3,1,1,0,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. Bt 18
+OUT_728,0,1,0,6,0,0,0,1,0,0,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured bacterium
+OUT_729,0,1,0,2,3,0,0,1,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_730,3,0,0,1,1,2,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes globisporus DSM 43857
+OUT_731,0,1,0,1,2,1,3,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Frankiales,Geodermatophilaceae,Blastococcus,uncultured bacterium
+OUT_732,0,0,2,0,0,0,0,2,2,2,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Rhodoplanes,uncultured bacterium
+OUT_733,4,0,0,0,2,0,0,1,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_734,0,1,1,1,2,1,0,0,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadales Incertae Sedis,Acidibacter,uncultured bacterium
+OUT_735,1,2,2,0,1,0,0,2,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_736,0,1,2,1,1,0,1,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planococcus,uncultured bacterium
+OUT_737,0,1,3,0,0,1,0,2,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bosea,uncultured bacterium
+OUT_738,0,0,1,2,0,0,4,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces monomycini
+OUT_739,0,1,0,2,1,1,0,1,1,1,Bacteria,Actinobacteria,Actinobacteria,Frankiales,Geodermatophilaceae,Blastococcus,uncultured Blastococcus sp.
+OUT_740,0,0,1,2,0,1,1,0,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured Bacillus sp.
+OUT_741,0,4,1,0,0,0,2,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Escherichia-Shigella,uncultured Enterobacter sp.
+OUT_742,3,0,0,1,1,0,2,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_743,1,0,0,1,0,0,2,1,3,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured bacterium
+OUT_744,1,0,0,2,3,1,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,Micromonospora sp. HBUM 83983
+OUT_745,1,0,0,3,3,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus cereus
+OUT_746,2,0,1,0,0,2,0,1,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,uncultured bacterium
+OUT_747,0,1,0,0,1,1,0,2,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Anoxybacillus toebii
+OUT_748,0,0,1,1,2,1,0,0,2,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Cupriavidus,Cupriavidus oxalaticus
+OUT_749,1,1,0,0,1,1,0,0,3,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,Geobacillus sp. HBB270
+OUT_750,0,2,0,1,0,1,1,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,Brevibacillus brevis
+OUT_751,0,0,2,0,0,1,3,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,uncultured bacterium
+OUT_752,1,0,1,0,1,3,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. MN-07
+OUT_753,0,1,0,0,3,0,1,0,2,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Massilia sp. G1-14
+OUT_754,1,2,0,0,1,1,0,1,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured Aquicella sp.
+OUT_755,1,0,2,0,1,0,2,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Kaistobacter sp. IMER-A2-13
+OUT_756,1,0,2,0,2,3,0,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_757,3,2,0,1,1,0,0,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Lysinimonas,Schumannella sp. b175
+OUT_758,1,1,0,1,0,2,1,0,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,Rhodospirillales bacterium L96
+OUT_759,0,0,1,0,2,1,2,1,0,1,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured bacterium
+OUT_760,1,1,3,0,0,0,1,0,1,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces pactum
+OUT_761,1,0,1,1,2,1,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_762,3,0,0,1,0,0,0,1,1,2,Bacteria,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,Nitrosococcus,uncultured gamma proteobacterium
+OUT_763,1,1,1,3,0,0,1,1,0,0,Bacteria,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,uncultured bacterium
+OUT_764,1,0,0,2,3,0,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_765,1,2,1,1,0,1,2,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,Agromyces flavus
+OUT_766,3,0,2,0,0,1,1,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured alpha proteobacterium
+OUT_767,3,0,1,0,4,0,0,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Aquamicrobium,uncultured bacterium
+OUT_768,0,0,0,2,1,0,2,0,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_769,1,1,0,1,1,1,2,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,uncultured bacterium
+OUT_770,0,2,0,0,0,0,1,4,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. CACIS-2.18CA
+OUT_771,3,1,0,1,1,0,1,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,uncultured compost bacterium
+OUT_772,0,2,0,0,2,0,4,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. CNQ-138_SD01
+OUT_773,1,0,1,0,2,0,0,4,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Tistlia,Tistlia consotensis USBA 355
+OUT_774,1,2,2,0,0,2,1,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. 19493
+OUT_775,0,2,0,0,0,4,2,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Sediminibacillus,Sediminibacillus halophilus
+OUT_776,4,0,0,1,1,0,0,0,0,1,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_777,0,2,0,0,1,0,1,0,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,uncultured gamma proteobacterium
+OUT_778,1,3,0,0,2,0,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter gandavensis
+OUT_779,1,0,1,0,1,1,2,0,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga oryziterrae
+OUT_780,1,0,2,0,0,0,1,2,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,uncultured Sphingopyxis sp.
+OUT_781,1,1,0,2,1,0,0,0,0,2,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured bacterium
+OUT_782,2,0,0,0,2,1,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,uncultured bacterium
+OUT_783,0,0,2,1,1,2,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_784,1,2,0,0,0,3,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Lentzea,uncultured bacterium
+OUT_785,1,3,2,0,0,0,0,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides szechwanensis
+OUT_786,2,0,2,0,1,0,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_787,0,1,2,0,0,2,0,0,1,1,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured Adhaeribacter sp.
+OUT_788,0,0,1,0,0,1,4,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,uncultured bacterium
+OUT_789,1,1,0,0,0,0,0,2,2,1,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_790,0,1,2,0,2,0,2,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,uncultured bacterium
+OUT_791,1,2,3,0,1,0,0,0,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_792,0,0,1,1,1,3,0,0,0,1,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured bacterium
+OUT_793,0,2,0,0,0,0,1,0,1,3,Bacteria,Chloroflexi,Chloroflexia,Chloroflexales,Roseiflexaceae,Roseiflexus,uncultured bacterium
+OUT_794,0,0,2,0,3,0,0,0,1,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured gamma proteobacterium
+OUT_795,2,0,0,0,1,0,1,0,3,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Lysobacter sp. Gra9
+OUT_796,1,1,1,0,1,1,1,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_797,0,1,1,1,3,1,0,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Leifsonia,Leifsonia poae
+OUT_798,0,0,0,0,0,1,6,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. Sco-B15
+OUT_799,0,1,1,0,0,1,3,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,Aeromicrobium panaciterrae
+OUT_800,1,0,0,1,1,2,0,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_801,0,3,0,0,1,1,2,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,uncultured Novosphingobium sp.
+OUT_802,1,0,1,1,0,2,1,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,uncultured bacterium
+OUT_803,2,0,1,0,3,0,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,uncultured bacterium
+OUT_804,1,1,0,1,0,1,0,0,3,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_805,0,3,0,0,0,2,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_806,0,1,2,0,0,0,0,1,3,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_807,0,1,0,3,0,0,1,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_808,0,0,1,0,0,2,0,1,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_809,0,0,0,3,0,0,0,4,0,0,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,uncultured Acidobacteria bacterium
+OUT_810,1,1,0,1,3,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_811,2,1,0,0,0,1,2,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp.
+OUT_812,0,0,0,3,1,0,0,1,0,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus thermoamylovorans
+OUT_813,2,0,1,3,0,0,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_814,1,3,0,0,0,0,2,0,1,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Variovorax,uncultured bacterium
+OUT_815,0,1,1,1,1,0,0,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Family XII,Exiguobacterium,uncultured bacterium
+OUT_816,0,0,0,1,0,4,0,2,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_817,3,0,1,1,0,0,2,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,uncultured bacterium
+OUT_818,1,0,1,0,1,2,1,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus agaridevorans
+OUT_819,0,0,1,0,0,0,1,0,5,0,Bacteria,Proteobacteria,Betaproteobacteria,Rhodocyclales,Rhodocyclaceae,Azospira,uncultured bacterium
+OUT_820,0,2,0,0,1,0,0,3,1,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,Massilia haematophila
+OUT_821,0,0,0,4,0,1,0,1,0,1,Bacteria,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,uncultured bacterium
+OUT_822,1,0,0,3,2,0,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus clausii
+OUT_823,2,0,0,0,1,3,1,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. AS21
+OUT_824,0,3,0,0,0,1,3,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Lysobacter,Xanthomonas sp. TB8-9-II
+OUT_825,0,1,1,1,0,0,0,1,1,2,Bacteria,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,uncultured bacterium
+OUT_826,0,0,2,0,0,0,0,0,3,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Pedobacter,uncultured bacterium
+OUT_827,0,2,0,0,1,3,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Leucobacter,uncultured bacterium
+OUT_828,1,2,0,1,1,1,0,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,uncultured bacterium
+OUT_829,0,1,0,0,0,1,0,2,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_830,0,1,2,0,0,1,3,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_831,0,0,0,1,1,1,1,0,1,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Firmicutes bacterium M71_S54
+OUT_832,0,2,0,0,1,1,3,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sepulcri
+OUT_833,0,0,0,5,0,0,0,2,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteibacter,uncultured bacterium
+OUT_834,0,0,4,0,2,0,0,0,0,1,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystaceae,Nannocystis,uncultured bacterium
+OUT_835,1,1,1,0,0,1,0,0,3,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,uncultured marine bacterium
+OUT_836,2,1,1,0,1,1,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,Skermanella xinjiangensis
+OUT_837,2,0,0,0,1,0,2,1,1,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Arcticibacter,uncultured bacterium
+OUT_838,0,0,1,0,2,0,0,1,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Aurantimonadaceae,Martelella,Martelella sp. AD-3
+OUT_839,2,0,0,1,1,0,0,1,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Sporolactobacillaceae,Sporolactobacillus,uncultured bacterium
+OUT_840,1,0,0,3,1,1,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium sp. Q54
+OUT_841,1,0,1,0,0,0,0,0,4,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_842,0,0,0,1,0,2,0,1,1,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Sphingopyxis sp. YPTGXN13
+OUT_843,2,0,1,0,0,1,2,0,0,1,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,bacterium enrichment culture clone NCAAH 30A5
+OUT_844,0,2,0,0,0,0,5,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_845,0,0,2,0,0,1,0,0,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. KAR7
+OUT_846,2,0,1,0,0,0,2,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,Bradyrhizobium sp. RITF1022
+OUT_847,1,0,0,1,0,0,2,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_848,0,0,5,0,0,0,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,uncultured Sphingobium sp.
+OUT_849,0,0,0,0,0,3,1,0,2,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_850,2,0,0,1,2,0,0,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_851,2,0,0,0,0,3,0,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomycetaceae bacterium WMMB 665
+OUT_852,0,0,0,2,0,3,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,unidentified
+OUT_853,2,1,0,0,0,1,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_854,1,1,0,1,0,0,0,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_855,0,2,1,0,2,0,1,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_856,0,0,0,2,1,0,1,1,0,1,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured Nitrospiraceae bacterium
+OUT_857,0,1,1,2,0,1,1,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Nitrosomonadaceae,Nitrosospira,uncultured bacterium
+OUT_858,0,0,0,1,2,2,0,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingopyxis,Novosphingobium sp. HME8651
+OUT_859,0,0,1,1,1,1,0,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. S3-161
+OUT_860,0,0,0,3,0,0,1,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,uncultured bacterium
+OUT_861,0,0,0,1,0,1,4,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured Sphingomonas sp.
+OUT_862,0,1,1,1,0,0,1,2,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Aeromicrobium,Aeromicrobium massiliense JC14
+OUT_863,0,1,0,1,2,1,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. MWE-A38
+OUT_864,1,1,2,0,0,1,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Ensifer,Bartonella sp. TFC2
+OUT_865,0,0,0,0,2,1,1,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. hswX147
+OUT_866,0,0,0,4,1,1,0,0,0,0,Bacteria,Nitrospirae,Nitrospira,Nitrospirales,Nitrospiraceae,Nitrospira,uncultured bacterium
+OUT_867,0,2,0,0,1,0,1,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_868,2,0,0,1,0,0,3,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,unidentified eubacterium K44
+OUT_869,0,0,0,1,0,0,0,2,3,0,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured bacterium
+OUT_870,0,2,1,0,0,1,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus psychrosaccharolyticus
+OUT_871,2,0,0,2,1,0,1,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_872,0,0,1,4,0,0,0,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,Geobacillus sp. V1W70BlkI
+OUT_873,0,0,0,0,2,2,2,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Microvirga,Microvirga lupini
+OUT_874,1,1,0,0,2,1,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,uncultured Microbacteriaceae bacterium
+OUT_875,0,0,1,0,1,2,0,1,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptosporangium sp. sd-66
+OUT_876,1,0,2,0,0,0,0,0,1,2,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Niastella,uncultured Bacteroidetes bacterium
+OUT_877,0,0,0,5,0,0,0,1,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_878,0,1,3,0,0,1,1,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,uncultured bacterium
+OUT_879,0,0,2,1,0,0,0,2,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_880,1,2,0,0,0,0,0,2,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces phaeochromogenes
+OUT_881,3,1,0,0,0,1,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Aneurinibacillus,uncultured bacterium
+OUT_882,0,0,1,0,3,0,1,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_883,0,0,0,0,2,1,0,1,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Thermoactinomycetaceae,Thermoactinomyces,uncultured bacterium
+OUT_884,0,5,0,0,0,0,1,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,Enterobacteriaceae,Klebsiella,uncultured bacterium
+OUT_885,0,0,0,0,0,0,0,6,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus sp. Tibet-IB15
+OUT_886,1,1,1,0,0,1,0,0,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_887,2,1,0,2,0,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. CNJ843 PL04
+OUT_888,1,1,0,2,0,0,0,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_889,0,1,0,0,2,1,0,1,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus ginsengihumi
+OUT_890,0,1,0,0,0,1,2,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces fradiae
+OUT_891,2,0,0,1,1,1,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured actinobacterium
+OUT_892,0,0,1,0,1,1,1,1,0,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Citricoccus,Arthrobacter sp. VP3
+OUT_893,0,0,1,0,0,0,0,1,0,4,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium thermoresistibile
+OUT_894,1,0,0,0,5,0,0,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Rhodanobacter,uncultured bacterium
+OUT_895,1,1,0,0,0,1,1,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Bogoriellaceae,Georgenia,Georgenia sp. ITT12
+OUT_896,0,0,0,1,0,0,2,0,3,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured Mycobacterium sp.
+OUT_897,0,1,0,1,0,0,1,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_898,0,0,0,2,0,1,1,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. I08A-00376
+OUT_899,0,0,3,0,0,0,1,1,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. 19504
+OUT_900,0,2,0,0,2,0,1,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces melanosporofaciens
+OUT_901,2,1,0,0,1,0,1,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,Virgibacillus sp. DV2-2
+OUT_902,0,0,0,3,1,0,0,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_903,1,1,0,1,0,1,0,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces nogalater
+OUT_904,1,0,0,0,1,1,0,0,2,1,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_905,1,2,0,0,1,0,1,0,0,1,Bacteria,Firmicutes,Clostridia,Clostridiales,Ruminococcaceae,Clostridium sp. JC3,Clostridium sp. JC3
+OUT_906,0,1,1,0,1,0,1,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. ISO_06_Kulunda
+OUT_907,0,1,1,0,2,1,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,uncultured bacterium
+OUT_908,0,1,0,0,0,0,0,3,2,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. M7
+OUT_909,0,2,1,0,0,0,0,0,0,3,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. SES33
+OUT_910,2,0,0,0,1,1,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus massiliosenegalensis JC6
+OUT_911,0,0,1,2,1,1,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Lysinimonas,uncultured bacterium
+OUT_912,1,1,0,0,0,1,0,0,2,1,Bacteria,Chloroflexi,Chloroflexia,Chloroflexales,Roseiflexaceae,Roseiflexus,uncultured compost bacterium
+OUT_913,0,1,1,0,1,0,2,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,uncultured bacterium
+OUT_914,1,1,0,2,1,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Family XII,Exiguobacterium,bacterium ODC-2
+OUT_915,1,3,0,1,0,0,1,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus granivorans
+OUT_916,0,0,6,0,0,0,0,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Salinicola,Salinicola sp. P89
+OUT_917,2,0,0,1,0,0,0,0,1,2,Bacteria,Actinobacteria,Actinobacteria,Streptosporangiales,Thermomonosporaceae,Actinomadura,Actinomadura sp. new-30-5s-4-5
+OUT_918,0,1,1,0,0,1,2,1,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,uncultured Novosphingobium sp.
+OUT_919,1,0,0,0,1,2,1,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,uncultured bacterium
+OUT_920,0,2,0,0,0,0,1,0,0,2,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Pseudonocardia,uncultured actinobacterium
+OUT_921,1,0,1,0,0,1,0,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Hyphomicrobium,uncultured bacterium
+OUT_922,1,0,1,1,0,1,0,0,1,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Arenimonas,uncultured Xanthomonadaceae bacterium
+OUT_923,0,1,0,2,2,0,0,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_924,2,0,0,0,1,1,0,1,0,0,Bacteria,Acidobacteria,Acidobacteria,Subgroup 3,Unknown Family,Bryobacter,uncultured Acidobacteria bacterium
+OUT_925,0,0,0,0,0,1,0,0,4,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Massilia,uncultured bacterium
+OUT_926,2,0,0,0,0,1,0,0,0,2,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_927,3,0,1,0,0,0,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. K4 TET
+OUT_928,0,2,0,0,0,1,1,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Cellulomonadaceae,Cellulomonas,uncultured actinobacterium
+OUT_929,0,0,0,0,5,0,0,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,uncultured Saccharospirillum sp.
+OUT_930,0,1,0,0,0,0,4,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp. 05-Be-043
+OUT_931,0,0,0,1,0,0,0,1,1,2,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides sp. Ka72
+OUT_932,0,0,0,0,2,0,0,1,2,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylocystaceae,Methylosinus,uncultured alpha proteobacterium
+OUT_933,0,0,1,0,1,2,1,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderia,unidentified
+OUT_934,4,0,0,1,0,0,0,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,uncultured bacterium
+OUT_935,2,0,0,0,2,0,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,uncultured bacterium
+OUT_936,0,1,0,0,0,1,3,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. XBGRA1
+OUT_937,0,0,0,2,1,0,0,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. PENDO-1790
+OUT_938,1,0,0,1,0,1,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,uncultured bacterium
+OUT_939,1,0,1,1,0,1,0,0,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_940,0,2,1,1,0,0,0,1,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Flavisolibacter,uncultured Bacteroidetes bacterium
+OUT_941,2,0,0,0,0,0,3,0,0,0,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Chitinophagaceae,Chitinophaga,Chitinophaga pinensis DSM 2588
+OUT_942,2,1,0,0,1,1,0,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Kribbella,Kribbella catacumbae
+OUT_943,1,0,0,0,1,1,0,0,1,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Rhodoplanes,uncultured Hyphomicrobiaceae bacterium
+OUT_944,0,1,0,3,1,0,0,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. B-jedd
+OUT_945,0,0,0,1,1,1,0,1,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,uncultured Skermanella sp.
+OUT_946,1,1,0,0,1,0,0,0,1,1,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_947,1,0,0,2,1,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Geobacillus,uncultured bacterium
+OUT_948,0,0,0,3,0,0,1,0,0,1,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes sp. RI44-Va104
+OUT_949,0,0,0,3,0,0,1,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,Paenibacillus taihuensis
+OUT_950,0,0,1,0,1,0,2,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter sp. R-36708
+OUT_951,1,0,1,1,0,0,2,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingosinicella sp. THG-sc1
+OUT_952,1,0,3,0,0,0,1,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Herbaspirillum,Herbaspirillum sp. B65
+OUT_953,0,1,0,1,0,0,1,1,0,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. 45(2014)
+OUT_954,1,0,0,2,0,0,0,2,0,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured soil bacterium
+OUT_955,1,1,0,2,0,0,0,1,0,0,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Flavobacterium,Flavobacterium rivuli
+OUT_956,1,1,0,0,0,1,0,1,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Acetobacteraceae,Roseomonas,Roseomonas sp. Sr43
+OUT_957,0,0,1,0,0,1,1,0,1,1,Bacteria,Proteobacteria,Deltaproteobacteria,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,uncultured bacterium
+OUT_958,1,0,1,0,2,0,0,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Pseudonocardiales,Pseudonocardiaceae,Saccharothrix,Saccharothrix texasensis
+OUT_959,1,1,0,0,0,1,2,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Nocardiaceae,Rhodococcus,uncultured bacterium
+OUT_960,0,0,0,1,0,1,1,0,1,1,Bacteria,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium sp. MUSC181T
+OUT_961,0,1,1,1,0,0,0,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. D2-3-1-8.1
+OUT_962,0,0,2,0,1,2,0,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Herbaspirillum,uncultured bacterium
+OUT_963,2,1,0,0,0,0,0,1,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured compost bacterium
+OUT_964,1,0,2,0,1,0,0,1,0,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,uncultured actinobacterium
+OUT_965,0,0,0,0,0,2,2,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Microbacterium sp. SW101
+OUT_966,0,1,0,0,1,0,1,0,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Thermoactinomycetaceae,Thermoactinomyces,Thermoactinomyces intermedius
+OUT_967,0,1,0,2,0,0,0,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Micromonospora,Micromonospora sp. MBRL 34
+OUT_968,0,0,1,0,0,0,0,1,2,1,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,uncultured bacterium
+OUT_969,3,0,0,0,1,0,0,0,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Nitrobacter,uncultured Paracoccus sp.
+OUT_970,1,1,0,1,0,1,1,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides sp. TD1-5-2
+OUT_971,0,2,0,0,0,1,1,0,0,1,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_972,0,1,0,0,3,1,0,0,0,0,Bacteria,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,Gemmatimonas,uncultured bacterium
+OUT_973,0,0,1,0,0,0,0,1,3,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Intrasporangiaceae,Janibacter,Janibacter limosus
+OUT_974,0,0,0,0,0,0,0,1,3,1,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Cellulomonadaceae,Cellulomonas,Oerskovia sp. I10B-02251
+OUT_975,3,1,1,0,0,0,0,0,0,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium hauntlense
+OUT_976,0,0,3,0,0,2,0,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,uncultured Hydrogenophaga sp.
+OUT_977,0,0,0,1,1,1,0,2,0,0,Bacteria,Actinobacteria,Actinobacteria,Propionibacteriales,Nocardioidaceae,Nocardioides,Nocardioides halotolerans
+OUT_978,3,0,1,0,0,0,0,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,uncultured bacterium
+OUT_979,0,0,0,1,1,0,1,0,2,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,uncultured bacterium
+OUT_980,0,0,0,2,0,0,1,0,0,2,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_981,1,0,0,0,0,1,0,1,1,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus aeolius
+OUT_982,0,0,1,0,2,0,2,0,0,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Kocuria,uncultured Micrococcineae bacterium
+OUT_983,0,0,0,0,1,0,0,2,1,1,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Adhaeribacter,uncultured bacterium
+OUT_984,0,1,0,3,0,0,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Solibacillus,Bacillus sp. BD-121
+OUT_985,0,0,0,2,1,1,0,1,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Brevibacillus,uncultured synthetic wastewater bacterium tmbr11-7
+OUT_986,0,0,1,0,1,1,1,0,1,0,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,bacterium enrichment culture clone heteroB30_4W
+OUT_987,0,0,0,0,2,0,0,2,0,1,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,uncultured bacterium
+OUT_988,0,2,0,1,1,1,0,0,0,0,Bacteria,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,uncultured bacterium
+OUT_989,0,1,1,0,1,1,1,0,0,0,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,Aquicella,uncultured bacterium
+OUT_990,1,1,0,0,1,0,1,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,Agromyces albus
+OUT_991,0,0,1,0,0,0,1,0,2,1,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sulfonofaciens
+OUT_992,2,0,0,1,0,0,1,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Planococcaceae,Jeotgalibacillus,Bacillus sp. 2216.25.27
+OUT_993,0,1,1,1,1,0,0,0,1,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,uncultured bacterium
+OUT_994,1,0,0,1,1,0,0,1,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,uncultured bacterium
+OUT_995,1,0,1,2,0,0,0,0,0,1,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus canaveralius
+OUT_996,0,0,1,2,0,1,1,0,0,0,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,uncultured bacterium
+OUT_997,0,0,1,0,0,0,0,0,4,0,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Virgibacillus,Virgibacillus subterraneus
+OUT_998,0,0,0,2,0,2,0,0,1,0,Bacteria,Actinobacteria,Actinobacteria,Streptomycetales,Streptomycetaceae,Streptomyces,Streptomyces sp. SD 572
+OUT_999,2,1,0,0,1,1,0,0,0,0,Bacteria,Proteobacteria,Deltaproteobacteria,Myxococcales,Nannocystaceae,Nannocystis,uncultured bacterium
+OUT_1000,0,0,1,0,0,2,1,0,0,1,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Achromobacter,Achromobacter spanius
