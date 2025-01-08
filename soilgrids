@@ -1,3 +1,46 @@
+// 定义需要下载的指标和深度
+var indicators = ['sand'];
+var depths = ['5-15cm', '15-30cm'];
+
+// 创建一个空的影像集合
+var imageCollection = ee.ImageCollection([]);
+
+// 循环遍历指标和深度，组合影像并添加到影像集合中
+indicators.forEach(function(indicator) {
+  depths.forEach(function(depth) {
+    var image = ee.Image("projects/soilgrids-isric/" + indicator + "_mean")
+      .select(indicator + '_' + depth + '_mean')
+      .rename(indicator + '_' + depth + '_mean')
+      .set('indicator', indicator) // 添加指标属性
+      .set('depth', depth); // 添加深度属性
+    imageCollection = imageCollection.merge(image);
+  });
+});
+
+// 打印影像集合
+print("imageCollection", imageCollection);
+
+// 将影像集合导出为多个文件
+var imageList = imageCollection.toList(imageCollection.size());
+for (var i = 0; i < imageList.length().getInfo(); i++) {
+  var image = ee.Image(imageList.get(i));
+  var indicator = image.get('indicator').getInfo(); // 获取指标信息
+  var depth = image.get('depth').getInfo(); // 获取深度信息
+  var imageName = 'SoilGrid_' + indicator + '_' + depth; // 使用指标和深度作为文件名
+  Export.image.toDrive({
+    image: image,
+    description: imageName,
+    fileNamePrefix: imageName,
+    folder: "SoilGrid", // 保存的文件夹
+    scale: 250, // 分辨率
+    maxPixels: 1e13, // 最大像元素，默认就好
+    crs: "EPSG:4326" // 设置投影
+  });
+}
+
+
+
+
 install.packages("geodata")
 library(geodata)
 library(raster)
