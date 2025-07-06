@@ -297,7 +297,7 @@ prec_12 <- raster::extract(x = wc2.1_30s_prec_12.tif, y = coords)
 data_all_1 <- data.frame(location_site, prec_1, prec_2, prec_3, prec_4, prec_5, prec_6, prec_7, prec_8, prec_9, prec_10, prec_11, prec_12)
 head(data_all_1)
 
-data_all_1$prec_annual <- rowMeans(data_all_1[5:16]) # 计算年均温
+data_all_1$prec_annual <- rowSums(data_all_1[5:16]) # 计算年均温
 
 cbind(data_all, data_all_1$prec_annual) -> all_data
 
