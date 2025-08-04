@@ -109,7 +109,7 @@ if __name__ == '__main__':
 ####### 截止到107 line
 
 
-# 运行python脚本，-o可以指定输出位置，faa_list.txt 文件按照每行放置faa（蛋白文件）的文件路径即可
+######### 运行python脚本，-o可以指定输出位置，faa_list.txt 文件按照每行放置faa（蛋白文件）的文件路径即可
 python run_md_analysis.py   -l faa_list.txt   -o /home/Yangly/JunLing/ISSM_data_2025/metagenome/MD_analysis/results_xu
 
 # 也可后台运行脚本，log文件默认输出到当前文件夹中
@@ -147,5 +147,30 @@ for folder in "$input_dir"/*/; do
     fi
 done
 
+######### 将得到的所有的diversity_summary.txt文件，整理合并到一个文件中
+### 将以下新建成一个bash文件即可，然后进行bash xxxx.sh即可
 
+#!/bin/bash
+# 设置输出文件
+output_file="diversity_summary_all.csv"
+
+# 写入表头
+echo "Sample,Total_genes,Protein_Richness,Shannon_Diversity,Simpson_Evenness,Log10_Dissimilarity,MDI" > "$output_file"
+
+# 遍历目标目录下的所有子文件夹中的 diversity_summary.txt
+find /home/Yangly/JunLing/ISSM_data_2025/metagenome/MD_analysis/results -type f -name "diversity_summary.txt" | while read file; do
+    # 使用 grep 和 cut 提取每一项
+    sample=$(grep "Sample:" "$file" | cut -d':' -f2 | xargs)
+    total_genes=$(grep "Total protein-encoding genes:" "$file" | cut -d':' -f2 | xargs)
+    protein_richness=$(grep "Protein Richness:" "$file" | cut -d':' -f2 | xargs)
+    shannon=$(grep "Shannon Diversity:" "$file" | cut -d':' -f2 | xargs)
+    simpson=$(grep "Simpson Evenness:" "$file" | cut -d':' -f2 | xargs)
+    dissimilarity=$(grep "Log10 Protein Dissimilarity:" "$file" | cut -d':' -f2 | xargs)
+    mdi=$(grep "Metagenomic Diversity Index:" "$file" | cut -d':' -f2 | xargs)
+
+    # 拼接成一行写入 CSV 文件
+    echo "$sample,$total_genes,$protein_richness,$shannon,$simpson,$dissimilarity,$mdi" >> "$output_file"
+done
+
+echo "All data has been extracted to $output_file"
 
