@@ -150,27 +150,29 @@ done
 ######### 将得到的所有的diversity_summary.txt文件，整理合并到一个文件中
 ### 将以下新建成一个bash文件即可，然后进行bash xxxx.sh即可
 
-#!/bin/bash
-# 设置输出文件
-output_file="diversity_summary_all.csv"
+# 定义变量，方便修改
+INPUT_DIR="/home/Yangly/JunLing/ISSM_data_2025/metagenome/MD_analysis/summary_xu"
+OUTFILE="/home/Yangly/JunLing/ISSM_data_2025/metagenome/MD_analysis/summary_xu/summary_all.tsv"
 
-# 写入表头
-echo "Sample,Total_genes,Protein_Richness,Shannon_Diversity,Simpson_Evenness,Log10_Dissimilarity,MDI" > "$output_file"
+# 1. 输出表头（会覆盖已存在的同名文件）
+echo -e "Sample\tTotal_protein_encoding_genes\tProtein_Richness\tShannon_Diversity\tSimpson_Evenness\tLog10_Protein_Dissimilarity\tMetagenomic_Diversity_Index" \
+  > "${OUTFILE}"
 
-# 遍历目标目录下的所有子文件夹中的 diversity_summary.txt
-find /home/Yangly/JunLing/ISSM_data_2025/metagenome/MD_analysis/results -type f -name "diversity_summary.txt" | while read file; do
-    # 使用 grep 和 cut 提取每一项
-    sample=$(grep "Sample:" "$file" | cut -d':' -f2 | xargs)
-    total_genes=$(grep "Total protein-encoding genes:" "$file" | cut -d':' -f2 | xargs)
-    protein_richness=$(grep "Protein Richness:" "$file" | cut -d':' -f2 | xargs)
-    shannon=$(grep "Shannon Diversity:" "$file" | cut -d':' -f2 | xargs)
-    simpson=$(grep "Simpson Evenness:" "$file" | cut -d':' -f2 | xargs)
-    dissimilarity=$(grep "Log10 Protein Dissimilarity:" "$file" | cut -d':' -f2 | xargs)
-    mdi=$(grep "Metagenomic Diversity Index:" "$file" | cut -d':' -f2 | xargs)
-
-    # 拼接成一行写入 CSV 文件
-    echo "$sample,$total_genes,$protein_richness,$shannon,$simpson,$dissimilarity,$mdi" >> "$output_file"
+# 2. 循环遍历 .txt 文件，抽取字段并追加
+for f in "${INPUT_DIR}"/*.txt; do
+  awk -F': ' 'BEGIN{ OFS="\t" }
+    /^Sample:/                       { sample = $2 }
+    /^Total protein-encoding genes:/ { tp = $2 }
+    /^Protein Richness:/             { pr = $2 }
+    /^Shannon Diversity:/            { sd = $2 }
+    /^Simpson Evenness:/             { se = $2 }
+    /^Log10 Protein Dissimilarity:/  { ld = $2 }
+    /^Metagenomic Diversity Index:/  { mdi = $2 }
+    END {
+      print sample, tp, pr, sd, se, ld, mdi
+    }
+  ' "$f" >> "${OUTFILE}"
 done
 
-echo "All data has been extracted to $output_file"
-
+# 3. 查看结果前几行
+head -n 5 "${OUTFILE}"
