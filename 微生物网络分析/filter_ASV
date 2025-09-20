@@ -1,0 +1,168 @@
+library(dplyr)
+library(openxlsx)
+
+##### 筛选出物种 ####
+site <- "L"  # 想分析哪个地点，改这里即可
+input_dir <- "C:/Users/zhang/Documents/data/所有点"
+output_dir <- "C:/Users/zhang/Documents/data"
+
+filter_asv <- function(file, prefix, site, from_excel = FALSE) {
+  if (from_excel) {
+    asv_tab <- read.xlsx(file) %>%
+      dplyr::select(starts_with(paste0(site, "_")))
+  } else {
+    asv_tab <- read.delim(file, row.names = 1, check.names = FALSE) %>%
+      dplyr::select(starts_with(paste0(site, "_")))
+  }
+  
+  # ===Step 1: 出现频率 >= 3 
+  occur_freq <- rowSums(asv_tab > 0)
+  asvs_freq_filter <- occur_freq >= 3
+  
+  # ===Step 2: 转换为相对丰度
+  rel_abund <- sweep(asv_tab, 2, colSums(asv_tab), FUN = "/")
+  
+  # ===Step 3: 相对丰度最大值 > 0.0001
+  asvs_abunL_filter <- apply(rel_abund, 1, function(x) any(x > 0.0001))
+  
+  # ====Step 4: 两个条件都满足
+  asvs_keep <- asvs_freq_filter & asvs_abunL_filter
+  
+  # ===筛选后的 ASV 表格
+  filtered <- asv_tab[asvs_keep, ]
+  
+  # ===添加前缀到行名
+  rownames(filtered) <- paste0(prefix, "_", rownames(filtered))
+  
+  # ===保存结果
+  out_file <- file.path(output_dir, paste0(site, "_", prefix, "_filtered.csv"))
+  write.csv(filtered, out_file)
+  message("已保存: ", out_file)
+  
+  return(filtered)
+}
+
+arc <- filter_asv(file.path(input_dir, "All_sites_arc_asv.txt"), "arc", site)
+bac <- filter_asv(file.path(input_dir, "All_sites_bac_asv.txt"), "bac", site)
+fun <- filter_asv(file.path(input_dir, "All_sites_fun_asv.txt"), "fun", site)
+pro <- filter_asv(file.path(input_dir, "All_sites_pro_asv.txt"), "pro", site)
+nem <- filter_asv(file.path(input_dir, "All_sites_nem_asv.txt"), "nem", site)
+
+asv_combined <- rbind(arc, bac, fun, pro, nem)
+out_file_all <- file.path(output_dir, paste0(site, "_all_filtered.txt"))
+col_names <- c("#OTU ID", colnames(asv_combined))
+write.table(cbind(`#OTU ID` = rownames(asv_combined), asv_combined), file = out_file_all, sep = "\t",
+  row.names = FALSE, col.names = TRUE, quote = FALSE)
+
+# 定义一个函数来提取子集并写出文件（带 #OTU ID）
+save_subset <- function(asv_df, pattern, site, output_dir) {
+  subset_df <- asv_df[, grepl(pattern, colnames(asv_df))]
+  out_file <- file.path(output_dir, paste0(site, "_", pattern, ".txt"))
+  write.table(
+    cbind(`#OTU ID` = rownames(subset_df), subset_df),
+    file = out_file,
+    sep = "\t",
+    row.names = FALSE,  # 已经把行名写入第一列，不再保留 row.names
+    col.names = TRUE,
+    quote = FALSE
+  )
+  
+  message("已保存: ", out_file)
+}
+
+# 分别提取 FP, HY, ISSM
+save_subset(asv_combined, "FP", site, output_dir)
+save_subset(asv_combined, "HY", site, output_dir)
+save_subset(asv_combined, "ISSM", site, output_dir)
+
+##### 筛选出匹配的物种注释信息 ####
+library(dplyr)
+library(readr)
+
+# 参数设置
+site <- "B"
+asv_dir <- "C:/Users/zhang/Documents/data"   # 筛选后的 ASV 文件夹
+tax_dir <- "C:/Users/zhang/Documents/data/所有点"      # 原始 tax 文件夹
+output_dir <- "C:/Users/zhang/Documents/data/tax" # 输出筛选后 tax 的文件夹
+prefixes <- c("arc", "bac", "fun", "pro", "nem")
+
+filtered_list <- list()  # 用于存储筛选后的 tax 表
+
+for (prefix in prefixes) {
+  # 1. 已筛选 ASV 表
+  asv_file <- file.path(asv_dir, paste0(site, "_", prefix, "_filtered.csv"))
+  asv_df <- read.csv(asv_file) %>% rename(ASV_ID = 1)
+  
+  # 2. 原始 tax 文件
+  tax_file <- file.path(tax_dir, paste0("All_sites_", prefix, "_tax.txt"))
+  tax_df <- read_delim(tax_file, delim = "\t") %>% rename(ASV_ID = 1)
+  tax_df$ASV_ID <- paste0(prefix, "_", tax_df$ASV_ID)
+  
+  # 3. 筛选 tax 表
+  tax_filtered <- tax_df %>% filter(ASV_ID %in% asv_df$ASV_ID)
+  
+  
+  # 5. 输出单独的筛选后 tax 文件
+  out_file <- file.path(output_dir, paste0(site, "_", prefix, "_filtered_tax.csv"))
+  write_csv(tax_filtered, out_file)
+  
+  # 6. 保存到列表，用于合并
+  filtered_list[[prefix]] <- tax_filtered
+}
+
+# 合并五类物种 tax 表
+merged_tax <- bind_rows(filtered_list)
+out_file_all <- file.path(output_dir, paste0(site, "_all_filtered_tax.csv"))
+write_csv(merged_tax, out_file_all)
+
+####### 计算物种相对丰度，使用Yuan NCC计算鲁棒性的方法时需要使用 #####
+site <- "L"  # 想分析哪个地点，改这里即可
+input_dir <- "C:/Users/zhang/Documents/data/所有点"
+output_dir <- "C:/Users/zhang/Documents/data"
+
+process_asv <- function(file, prefix, site, from_excel = FALSE, rarefy_depth = NULL) {
+  # ========= 读取数据 =========
+  if (from_excel) {
+    asv_tab <- read.xlsx(file) %>%
+      dplyr::select(starts_with(paste0(site, "_")))
+  } else {
+    asv_tab <- read.delim(file, row.names = 1, check.names = FALSE) %>%
+      dplyr::select(starts_with(paste0(site, "_")))
+  }
+  
+  # ========= 转换为整数 =========
+  asv_tab_int <- round(asv_tab)
+  
+  # ========= 抽平 =========
+  if (!is.null(rarefy_depth)) {
+    set.seed(123)  # 保证可重复
+    asv_rarefy <- rrarefy(t(asv_tab_int), rarefy_depth) %>% t() %>% as.data.frame()
+  } else {
+    asv_rarefy <- as.data.frame(asv_tab_int)
+  }
+  
+  # ========= 相对丰度 =========
+  rel_abund <- sweep(asv_rarefy, 2, colSums(asv_rarefy), FUN = "/")
+  
+  # ========= 添加前缀 =========
+  rownames(asv_rarefy) <- paste0(prefix, "_", rownames(asv_rarefy))
+  rownames(rel_abund) <- paste0(prefix, "_", rownames(rel_abund))
+  
+  # ========= 返回 =========
+  return(list(raw = asv_rarefy, rel = rel_abund))
+}
+
+arc <- process_asv(file.path(input_dir, "All_sites_arc_asv.txt"), "arc", site)
+bac <- process_asv(file.path(input_dir, "All_sites_bac_asv.txt"), "bac", site)
+fun <- process_asv(file.path(input_dir, "All_sites_fun_asv.txt"), "fun", site)
+pro <- process_asv(file.path(input_dir, "All_sites_pro_asv.txt"), "pro", site)
+nem <- process_asv(file.path(input_dir, "All_sites_nem_asv.txt"), "nem", site)
+
+asv_combined_rel <- rbind(arc$rel, bac$rel, fun$rel, pro$rel, nem$rel)
+
+write.table(asv_combined_rel,
+            file = file.path(output_dir, paste0(site, "_all_rarefied_relabund.tsv")),
+            sep = "\t",
+            quote = FALSE,
+            row.names = TRUE, 
+            col.names = NA)
