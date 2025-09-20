@@ -42,7 +42,7 @@ rmsimu<-function(netRaw, rm.p.list, sp.ra, abundance.weighted=T,nperm=100){
   })) 
 }
 
-# 读取相关性和p value矩阵
+# 读取相关性和p value矩阵，sparcc得出
 A_ISSM_cormatrix <- read.table("C:/Users/ling/OneDrive/待办事项/things/网络分析/A_ISSM_correlation.tsv",
                              header = T, row.names = 1, check.names = F, comment.char = "", sep = "\t")
 
@@ -62,7 +62,7 @@ sum(abs(A_ISSM_adj) > 0) / 2 # 统计边的数量
 sum(colSums(abs(A_ISSM_adj)) > 0) # 统计节点数量，该 ASV 至少有一条边
 A_ISSM_net_raw <- A_ISSM_adj[colSums(abs(A_ISSM_adj)) > 0, colSums(abs(A_ISSM_adj)) > 0]
 
-# 读取ASV相对丰度数据
+# 读取ASV相对丰度数据，按照最小序列数进行抽平
 A_ISSM_abun <- read.table("C:/Users/ling/OneDrive/待办事项/things/网络分析/A_all_rarefied_relabund.tsv",
                         header = T, row.names = 1, check.names = F, comment.char = "", sep = "\t") %>% 
   dplyr::select(matches("ISSM")) %>% t() %>% colMeans()
