@@ -1,0 +1,92 @@
+# raw contributor: Linwei Wu 
+# Yuan, M. M. et al. Climate warming enhances microbial network complexity and stability. Nature Climate Change 11, 343-348, doi:10.1038/s41558-021-00989-9 (2021).
+
+rand.remov.once<-function(netRaw, rm.percent, sp.ra, abundance.weighted=T){
+  id.rm<-sample(1:nrow(netRaw), round(nrow(netRaw)*rm.percent))
+  net.Raw=netRaw #don't want change netRaw
+  net.Raw[id.rm,]=0;  net.Raw[,id.rm]=0;   ##remove all the links to these species
+  if (abundance.weighted){
+    net.stength= net.Raw*sp.ra
+  } else {
+    net.stength= net.Raw
+  }
+  
+  sp.meanInteration<-colMeans(net.stength)
+  
+  id.rm2<- which(sp.meanInteration<=0)  ##remove species have negative interaction or no interaction with others
+  remain.percent<-(nrow(netRaw)-length(id.rm2))/nrow(netRaw)
+  #for simplicity, I only consider the immediate effects of removing the
+  #'id.rm' species; not consider the sequential effects of extinction of
+  # the 'id.rm2' species.
+  
+  #you can write out the network pruned
+  #net.Raw[id.rm2,]=0;  net.Raw[,id.rm2]=0;
+  #write.csv( net.Raw,"network pruned.csv")
+  remain.percent
+}
+
+rmsimu<-function(netRaw, rm.p.list, sp.ra, abundance.weighted=T,nperm=100){
+  t(sapply(rm.p.list,function(x){
+    remains=sapply(1:nperm,function(i){
+      rand.remov.once(netRaw=netRaw, rm.percent=x, sp.ra=sp.ra, abundance.weighted=abundance.weighted)
+    })
+    remain.mean=mean(remains)
+    remain.sd=sd(remains)
+    remain.se=sd(remains)/(nperm^0.5)
+    #result<-c(remain.mean,remain.sd,remain.se)
+    #names(result)<-c("remain.mean","remain.sd","remain.se")
+    result<-c(remain.mean,remain.sd,remain.se,remains)
+    names(result)<-c("remain.mean","remain.sd","remain.se")
+    result <- cbind(result,remains)
+    result
+  })) 
+}
+
+# 读取相关性和p value矩阵
+A_ISSM_cormatrix <- read.table("C:/Users/ling/OneDrive/待办事项/things/网络分析/A_ISSM_correlation.tsv",
+                             header = T, row.names = 1, check.names = F, comment.char = "", sep = "\t")
+
+A_ISSM_pv <- read.table("C:/Users/ling/OneDrive/待办事项/things/网络分析/A_ISSM_pvalues.tsv",
+                      header = T, row.names = 1, check.names = F, comment.char = "", sep = "\t")
+
+# 保留 |相关性|≥ 0.65 且 p < 0.01的值
+A_ISSM_cormatrix[abs(A_ISSM_cormatrix) < 0.65] <- 0
+
+A_ISSM_pv[A_ISSM_pv >= 0.01] <- -1
+A_ISSM_pv[A_ISSM_pv < 0.01 & A_ISSM_pv >= 0] <- 1
+A_ISSM_pv[A_ISSM_pv == -1] <- 0
+
+A_ISSM_adj <- as.matrix(A_ISSM_cormatrix) * as.matrix(A_ISSM_pv) # 筛选后的邻接矩阵
+diag(A_ISSM_adj) <- 0    # 将相关矩阵中对角线中的值（代表了自相关）转为 0
+sum(abs(A_ISSM_adj) > 0) / 2 # 统计边的数量
+sum(colSums(abs(A_ISSM_adj)) > 0) # 统计节点数量，该 ASV 至少有一条边
+A_ISSM_net_raw <- A_ISSM_adj[colSums(abs(A_ISSM_adj)) > 0, colSums(abs(A_ISSM_adj)) > 0]
+
+# 读取ASV相对丰度数据
+A_ISSM_abun <- read.table("C:/Users/ling/OneDrive/待办事项/things/网络分析/A_all_rarefied_relabund.tsv",
+                        header = T, row.names = 1, check.names = F, comment.char = "", sep = "\t") %>% 
+  dplyr::select(matches("ISSM")) %>% t() %>% colMeans()
+
+A_ISSM_abun2 <- A_ISSM_abun[row.names(A_ISSM_net_raw)]
+sum(row.names(A_ISSM_net_raw) == names(A_ISSM_abun2))  #check if matched
+
+Weighted.simu <- rmsimu(netRaw = A_ISSM_net_raw, rm.p.list = seq(0.05, 1 , by = 0.05), 
+                        sp.ra = A_ISSM_abun2, abundance.weighted = T, nperm = 100)
+
+Unweighted.simu <- rmsimu(netRaw = A_ISSM_net_raw, rm.p.list = seq(0.05, 1 , by = 0.05), 
+                        sp.ra = A_ISSM_abun2, abundance.weighted = F, nperm = 100)
+
+A_ISSM_dat1 <- data.frame(Proportion.removed = rep(seq(0.05, 1, by = 0.05), 2),
+                        rbind(Weighted.simu, Unweighted.simu),
+                 weighted = rep(c("weighted","unweighted"), each = 20),
+                 Site_Trt = rep('A_ISSM', 40))
+
+A_ISSM_df <- A_ISSM_dat1 %>% dplyr::filter(Proportion.removed == 0.5) %>% 
+  dplyr::select(2:4, 208, ncol(A_ISSM_dat1))
+names(A_ISSM_df)<-c("remain.mean","remain.sd","remain.se","weighted","type")
+A_ISSM_df
+
+rdf <- rbind(A_FP_df, A_HY_df, A_ISSM_df)
+rdf
+write.csv(rdf, "random_removal_result_0.5_SiteA.csv")
+
