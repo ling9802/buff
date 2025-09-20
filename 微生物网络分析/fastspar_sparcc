@@ -1,0 +1,55 @@
+# 先行安装fastspar https://github.com/scwatts/fastspar
+conda activate fastspar_env
+cd $CONDA_PREFIX
+ln -s libgsl.so.27 libgsl.so.25
+
+
+# 指定站点和处理
+SITE="K"
+TRT="ISSM"
+
+# 输入文件前缀
+PREFIX="${SITE}_${TRT}"
+INPUT_FILE="${PREFIX}.txt"
+
+# 日志和输出目录
+LOG_DIR="./log"
+BOOTSTRAP_DIR="./bootstrap_counts"
+BOOT_CORR_DIR="./bootstrap_correlation"
+
+mkdir -p "$LOG_DIR" "$BOOTSTRAP_DIR" "$BOOT_CORR_DIR"
+mkdir -p "${BOOTSTRAP_DIR}/${PREFIX}"
+mkdir -p "${BOOT_CORR_DIR}/${PREFIX}"
+
+
+fastspar \
+  --otu_table "$INPUT_FILE" \
+  --correlation "${PREFIX}_correlation.tsv" \
+  --covariance "${PREFIX}_covariance.tsv" \
+  --iterations 100 \
+  --threads 55
+
+fastspar_bootstrap \
+  --otu_table "$INPUT_FILE" \
+  --number 1000 \
+  --threads 55 \
+  --prefix "${BOOTSTRAP_DIR}/${PREFIX}/data"
+
+
+nohup parallel fastspar --otu_table {} \
+  --correlation "${BOOT_CORR_DIR}/${PREFIX}/cor_{/}" \
+  --covariance "${BOOT_CORR_DIR}/${PREFIX}/cov_{/}" \
+  -i 5 ::: "${BOOTSTRAP_DIR}/${PREFIX}"/* \
+  > "${LOG_DIR}/${PREFIX}_parallel.log" 2>&1 &
+
+# 核对是否是2000个文件，如果是则没问题，需要核对存储空间是否足够大
+ls -1 ${BOOT_CORR_DIR}/${PREFIX} | wc -l
+
+fastspar_pvalues \
+  --otu_table "$INPUT_FILE" \
+  --correlation "${PREFIX}_correlation.tsv" \
+  --prefix "${BOOT_CORR_DIR}/${PREFIX}/cor_data_" \
+  --permutations 1000 \
+  --threads 40 \
+  --outfile "${PREFIX}_pvalues.tsv"
+
