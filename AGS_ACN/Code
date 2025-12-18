@@ -1,0 +1,20 @@
+# 建议跑新的版本的ags的打码，每跑一个样本记得记录，因为会被强制替换掉
+./run_ags_fgsrs.sh T1SF_3.contig.fa ags_output \
+  --min_length 100 \
+  --sample_name T1SF_3 \
+  --verbose t \
+  --overwrite t \
+  --nslots 14 \
+  --save_complementary_data t
+ 
+# 必须要将tsv文件移动到与fa文件一个文件夹
+cp /home/mat/ags_output/T1SF_3_ags.tsv /home/mat/
+
+# 有可能会显示报错 > 30000 reads，作者没有更新镜像，里面有些软件是老版本
+./run_acn.sh T1SF_3.contig.fa T1SF_3_ags.tsv acn_output \
+  --sample_name T1SF_3 \
+  --verbose t \
+  --overwrite t \
+  --nslots 14 \
+  --save_complementary_data t
+
