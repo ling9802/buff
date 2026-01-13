@@ -1,0 +1,103 @@
+2. SPAdes 组装 和 MEGAHIT 组装（meta-sensitive 模式）
+#### SPAdes 组装
+# 安装依赖
+conda install -c bioconda spades -y
+conda install -c bioconda quast -y
+conda activate metagenomic  # SPAdes + MEGAHIT 环境
+
+# 进入组装目录
+cd your_project/03_assembly
+
+# 批量脚本可执行
+chmod +x spades_assembly_batch.sh
+
+# 后台运行
+nohup ./spades_assembly_batch.sh &
+
+# 提取每个样本拼接好的 fasta 文件
+mkdir -p spades_final_result
+while read id; do
+  cp spades_result/${id}_spades/contigs.fasta \
+     spades_final_result/${id}_contigs.fasta
+done < ../samplelist
+
+# QUAST 质量评估
+mkdir -p quast_spades
+cat ../samplelist | while read id; do
+  quast.py spades_final_result/${id}_contigs.fasta \
+           -o quast_spades/${id}_quast \
+           -t 120
+done
+
+####  MEGAHIT 组装（meta-sensitive 模式）
+# 批量脚本可执行
+chmod +x megahit_assembly_batch.sh
+# 后台运行
+nohup ./megahit_assembly_batch.sh &
+# 提取每个样本拼接好的 fasta 文件
+mkdir -p megahit_final_result
+while read id; do
+  cp megahit_result/${id}/contigs.fasta \
+     megahit_final_result/${id}_contigs.fasta
+done < ../samplelist
+
+# QUAST 质量评估
+mkdir -p quast_megahit
+cat ../samplelist | while read id; do
+  quast.py megahit_final_result/${id}_contigs.fasta \
+           -o quast_megahit/${id}_quast \
+           -t 120
+done
+
+3. 基因预测与非冗余基因集构建
+# 创建基因预测环境
+conda create -n genepred -c bioconda prodigal cd-hit seqkit -y
+conda activate genepred
+
+# 新建基因预测目录
+mkdir -p 08_gene_prediction
+cd 08_gene_prediction
+
+# SPAdes 基于 contigs 构建
+mkdir -p SPAdes_baseon
+cd SPAdes_baseon
+cat ../../03_assembly/spades_result/*/contigs.fasta > all_contigs.fasta
+
+# 使用 Prodigal 进行基因预测（meta 模式）
+nohup prodigal \
+  -i all_contigs.fasta \
+  -a all_proteins.faa \
+  -d all_genes.fna \
+  -f gff \
+  -o all_prodigal.gff \
+  -p meta \
+  > prodigal.log 2>&1 &
+
+# 蛋白水平去冗余，90%水平（优选）
+cd-hit -i all_proteins.faa \
+       -o all_proteins.nr90.faa \
+       -c 0.9 \
+       -n 5 \
+       -T 80 \
+       -M 0 \
+       -aS 0.9 \
+       -g 1
+
+4. 基因定量与核苷酸水平去冗余
+# 可选：过滤过短基因 (<150 bp)
+# seqkit seq -m 150 all_genes.fna > all_genes.150.fna
+
+# 创建核苷酸水平非冗余基因目录
+mkdir -p nucleotide_nr
+cd nucleotide_nr
+
+# 以 95% (优选)相似度进行聚类，生成非冗余基因集
+cd-hit-est -i ../all_genes.fna \
+           -o NR_genes_95.fna \
+           -c 0.95 \
+           -n 10 \
+           -aS 0.9 \
+           -g 1 \
+           -G 0 \
+           -T 120 \
+           -M 0
