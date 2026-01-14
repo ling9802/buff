@@ -1,3 +1,4 @@
+GEE网址：https://code.earthengine.google.com/?scriptPath=users%2Fsat-io%2Fawesome-gee-catalog-examples%3Asoil-properties%2FISRIC-SOIL-GRID-250
 // 定义需要下载的指标和深度
 var indicators = ['sand'];
 var depths = ['5-15cm', '15-30cm'];
