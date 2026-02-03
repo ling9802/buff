@@ -1,1 +1,45 @@
+# ---------- 科研网站分流 (强制直连/学校流量) ----------
+# ---------- CNKI（知网） ----------
+DOMAIN-SUFFIX,cnki.net,DIRECT
+DOMAIN-SUFFIX,cnki.com.cn,DIRECT
+
+# ---------- IEEE（含 Xplore） ----------
+DOMAIN-SUFFIX,ieee.org,DIRECT
+DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
+
+# ---------- Elsevier / ScienceDirect ----------
+DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+DOMAIN-SUFFIX,elsevier.com,DIRECT
+
+# ---------- Springer ----------
+DOMAIN-SUFFIX,springer.com,DIRECT
+DOMAIN-SUFFIX,springerlink.com,DIRECT
+DOMAIN-SUFFIX,link.springer.com,DIRECT
+
+# ---------- Nature ----------
+DOMAIN-SUFFIX,nature.com,DIRECT
+
+# ---------- AAAS / Science ----------
+DOMAIN-SUFFIX,science.org,DIRECT
+
+# ---------- Wiley ----------
+DOMAIN-SUFFIX,wiley.com,DIRECT
+DOMAIN-SUFFIX,onlinelibrary.wiley.com,DIRECT
+
+# ---------- AGU ----------
+DOMAIN-SUFFIX,agu.org,DIRECT
+
+# ---------- 国内教育/政务 ----------
+DOMAIN-SUFFIX,edu.cn,DIRECT
+DOMAIN-SUFFIX,gov.cn,DIRECT
+
+# ---------- PNAS ----------
+DOMAIN-SUFFIX,pnas.org,DIRECT
+
+# ---------- EGU系列 ----------
+DOMAIN-SUFFIX,copernicus.org,DIRECT
+
+
+
+
 
