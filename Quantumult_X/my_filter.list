@@ -40,7 +40,7 @@ DOMAIN-SUFFIX,pnas.org,DIRECT
 DOMAIN-SUFFIX,copernicus.org,DIRECT
 
 DOMAIN-KEYWORD,appstorrent.ru,DIRECT
-
+DOMAIN-KEYWORD,adobe,REJECT
 
 
 
