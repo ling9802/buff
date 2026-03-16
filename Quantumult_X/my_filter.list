@@ -39,6 +39,9 @@ DOMAIN-SUFFIX,pnas.org,DIRECT
 # ---------- EGU系列 ----------
 DOMAIN-SUFFIX,copernicus.org,DIRECT
 
+# ---------- ACS系列 ----------
+DOMAIN-SUFFIX,pubs.acs.org,DIRECT
+
 DOMAIN-KEYWORD,appstorrent.ru,DIRECT
 DOMAIN-KEYWORD,adobe,REJECT
 
