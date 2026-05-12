@@ -68,16 +68,6 @@ sample="WSF_1"
   --save_complementary_data t
 
 # 利用已经预测好的蛋白序列直接得到AGS，但是ACN不行
-"${run_ags}" \
-  data/${sample}_sampled_2M.fna \
-  data/${sample}_sampled_2M.faa \
-  ${sample}_ags_output2 \
-  --sample_name "${sample}" \
-  --verbose t \
-  --overwrite t \
-  --nslots 2 \
-  --save_complementary_data t
-
 "${run_acn}" \
   ${sample}_ags_output/${sample}_FBL.fna \
   ${sample}_ags_output/${sample}_ags.tsv \
