@@ -1,0 +1,17 @@
+# OneDrive Services - Quantumult X Rules
+host-suffix, 1drv.com, Microsoft
+host-suffix, livefilestore.com, Microsoft
+host-suffix, microsoftpersonalcontent.com, Microsoft
+host-suffix, oneclient.sfx.ms, Microsoft
+host-suffix, onedrive.com, Microsoft
+host-suffix, onedrive.live.com, Microsoft
+host-suffix, photos.live.com, Microsoft
+host-suffix, sharepoint.com, Microsoft
+host-suffix, sharepointonline.com, Microsoft
+host-suffix, skydrive.wns.windows.com, Microsoft
+host-suffix, spoprod-a.akamaihd.net, Microsoft
+host-suffix, storage.live.com, Microsoft
+host-suffix, storage.msn.com, Microsoft
+host-keyword, 1drv, Microsoft
+host-keyword, onedrive, Microsoft
+host-keyword, skydrive, Microsoft
